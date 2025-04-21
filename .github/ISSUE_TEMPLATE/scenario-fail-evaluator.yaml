@@ -1,0 +1,68 @@
+name: Scenario fail (Evaluator)
+description: Report failures in scenario tests.
+title: '[SCENARIO-FAILED] {Scenario} - {Brief description}'
+projects: ["autowarefoundation/46"]
+assignees: 
+  - diegoyabuki
+body:
+  - type: textarea
+    attributes:
+      label: Test Information
+      description: "Write the failed scenario information."
+      value: |
+        | Scenario | Suite | Catalog |
+        |----------|-------|---------|
+        | UC-NTR-001-0001 | Dense Urban | Dense Urban |
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Test Runs
+      description: "Write the test run results."
+      value: |
+        | Test Week | Test Run Link | Failure Rate | Source Version | Notes |
+        |-----------|---------------|--------------|----------------|-------|
+        | YYYY-MM-DD | [ID](link-to-test-run) | 3/5 | 1.2.3 | Initial failure |
+        | YYYY-MM-DD | [ID](link-to-test-run) | 4/5 | 1.2.4 | Still failing after planning update |
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Failure Description
+      description: Describe the failure and observed behavior.
+      placeholder: Vehicle did not stop at the stop sign.
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Describe the expected behavior.
+      placeholder: Vehicle should have stopped at the stop sign.
+  - type: textarea
+    attributes:
+      label: Affected Repositories
+      description: Choose the repositories affected by the fix.
+      value: |
+        - [ ] [odd-usecase-scenario](https://github.com/autowarefoundation/odd-usecase-scenario)
+        - [ ] [autoware_universe](https://github.com/autowarefoundation/autoware_universe)
+        - [ ] [autoware-projects](https://github.com/autowarefoundation/autoware-projects)
+        - [ ] Other repositories (specify below):
+        <!--
+          - https://github.com/organization/repository-name
+        -->
+  - type: input
+    attributes:
+      label: Similar Issues
+      description: Write the related existing issues if any.
+      placeholder: "#123, #456"
+  - type: input
+    attributes:
+      label: Due date
+      description: "Write the due date for the fix."
+      placeholder: Release x.x.x
+  - type: textarea
+    attributes:
+      label: Updates
+      description: "Record the issue progress."
+      placeholder: |
+        - YYYY-MM-DD: Issue created
+        - YYYY-MM-DD: Root cause identified as [explanation]
+        - YYYY-MM-DD: Fix implemented in PR #789
