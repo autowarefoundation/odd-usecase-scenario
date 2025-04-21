@@ -1,15 +1,18 @@
-name: Scenario fail
-description: Report failures in scenario tests
+name: Scenario fail (Evaluator)
+description: Report failures in scenario tests.
 title: '[SCENARIO-FAILED] {Scenario} - {Brief description}'
+projects: ["autowarefoundation/46"]
+assignees: 
+  - diegoyabuki
 body:
   - type: textarea
     attributes:
       label: Test Information
       description: "Write the failed scenario information."
       value: |
-        | Scenario | Catalog |
-        |----------|---------|
-        | UC-NTR-001-0001 | Dense Urban |
+        | Scenario | Suite | Catalog |
+        |----------|-------|---------|
+        | UC-NTR-001-0001 | Dense Urban | Dense Urban |
     validations:
       required: true
   - type: textarea
@@ -17,7 +20,6 @@ body:
       label: Test Runs
       description: "Write the test run results."
       value: |
-        ## Test Runs
         | Test Week | Test Run Link | Failure Rate | Source Version | Notes |
         |-----------|---------------|--------------|----------------|-------|
         | YYYY-MM-DD | [ID](link-to-test-run) | 3/5 | 1.2.3 | Initial failure |
@@ -28,6 +30,7 @@ body:
     attributes:
       label: Failure Description
       description: Describe the failure and observed behavior.
+      placeholder: Vehicle did not stop at the stop sign.
   - type: textarea
     attributes:
       label: Expected Behavior
