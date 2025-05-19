@@ -1,7 +1,7 @@
 - repository: autowarefoundation/sync-file-templates
   source-dir: sources
   files:
-    - source: .github/ISSUE_TEMPLATE/config.yaml
+    - source: .github/ISSUE_TEMPLATE/config.yml
     - source: .github/ISSUE_TEMPLATE/task.yaml
     - source: .github/pull_request_template.md
     - source: CODE_OF_CONDUCT.md
