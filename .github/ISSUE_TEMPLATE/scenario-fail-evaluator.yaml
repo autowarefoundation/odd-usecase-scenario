@@ -1,6 +1,6 @@
 name: Scenario fail (Evaluator)
 description: Report failures in scenario tests.
-title: '[SCENARIO-FAILED] {Scenario} - {Brief description}'
+title: '[SCENARIO-FAILED] {Brief description}'
 projects: ["autowarefoundation/46"]
 assignees: 
   - diegoyabuki
@@ -12,7 +12,7 @@ body:
       value: |
         | Scenario | Suite | Catalog |
         |----------|-------|---------|
-        | UC-NTR-001-0001 | Dense Urban | Dense Urban |
+        | UC-NTR-001-0001 | Dense Urban | Urban-Dense |
     validations:
       required: true
   - type: textarea
@@ -22,7 +22,7 @@ body:
       value: |
         | Test Week | Test Run Link | Failure Rate | Source Version | Notes |
         |-----------|---------------|--------------|----------------|-------|
-        | YYYY-MM-DD | [ID](link-to-test-run) | 3/5 | 1.2.3 | Initial failure |
+        | YYYY-MM-DD | [ID](link-to-test-run) | 3/5 | 1.2.3 | Latest failure (at the time of issue reporting) |
         | YYYY-MM-DD | [ID](link-to-test-run) | 4/5 | 1.2.4 | Still failing after planning update |
     validations:
       required: true
@@ -39,7 +39,7 @@ body:
   - type: textarea
     attributes:
       label: Affected Repositories
-      description: Choose the repositories affected by the fix.
+      description: Choose the repositories affected by the issue.
       value: |
         - [ ] [odd-usecase-scenario](https://github.com/autowarefoundation/odd-usecase-scenario)
         - [ ] [autoware_universe](https://github.com/autowarefoundation/autoware_universe)
@@ -51,7 +51,7 @@ body:
   - type: input
     attributes:
       label: Similar Issues
-      description: Write the related existing issues if any.
+      description: Link to existing related issues, if any.
       placeholder: "#123, #456"
   - type: input
     attributes:
