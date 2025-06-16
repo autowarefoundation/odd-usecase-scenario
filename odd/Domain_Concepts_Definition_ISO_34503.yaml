@@ -1,0 +1,320 @@
+TAXONOMY:
+
+  scenery_elements:
+
+    zone:
+     geofenced_areas: shapefile
+     zone_type:
+        fixed_zone:
+          - school_zone
+          - environmental_zone
+          - industrial_zone
+          - parking_lot
+        dynamic_zone:
+          - traffic_management_zone
+          - mobile_work_zone
+        interference_zone:
+          - urban_canyon
+          - overhead_wires
+          - dense_foliage
+        port_zone:
+          - any_port_zone # newly added to avoid empty categoricals
+        freight_distribution_centre:
+          - any_distribution_centre # newly added to avoid empty categoricals
+        region_or_states: shapefile
+
+    drivable_area:
+      drivable_area_type:
+        - motorways_or_highways_or_interstates # motorways or highways or interstates are high-traffic roads where non-motorized vehicles and pedestrians are prohibited.
+        - primary_roads # e.g., dual-carriage ways, single carriage ways
+        - radial_roads # high density traffic roads which connect the motorways to distributor roads or urban centres
+        - distributor_roads # connect radial roads with minor or local roads and generally have low to moderate capacity
+        - minor_or_local_roads # provide access to residential areas and other local developments
+        - slip_roads_or_off-ramps # used to drive on to and off a motorway or highways or interstates
+        - parking_space # physical space where one vehicle is parked
+        - shared_space #  may be shared between subject vehicle and other actors
+      drivable_area_type_classification:
+        - with_active_traffic_management
+        - without_active_traffic_management
+      drivable_area_geometry:
+        horizontal_plane:
+          - straight_lines
+          - curves
+        transverse_plane:
+          transverse_plane_type:
+            - divided
+            - undivided
+            - pavements
+          barriers_on_road_edges:
+            - any_barriers_on_road_edges # newly added to avoid empty categoricals
+          types_of_lanes_together:
+            - any_types_of_lanes_together # newly added to avoid empty categoricals
+          superelevation_banking:
+            - any_superelevation_banking # newly added to avoid empty categoricals
+        longitudinal_plane:
+          - up-slope # positive gradient
+          - down-slope # negative-gradient
+          - level_plane
+      drivable_area_lane_specification:
+        lane_dimensions:
+          - any_lane_dimension # newly added to avoid empty categoricals
+        lane_marking:
+          - clear_lane_marking
+          - blurred_lane_marking
+          - no_lane_marking
+          - temporary_lane_marking
+        lane_type:
+          - bus_lane
+          - traffic_lane
+          - cycle_lane
+          - tram_lane
+          - emergency_lane
+          - shared_lane
+          - other_special_purpose_lanes
+        direction_of_travel:
+          - right-hand_travel
+          - left-hand_travel
+        speed_limit: integer velocity
+      drivable_area_signs:
+        sign_types:
+          - regulatory_signs # e.g. traffic lights
+          - warning_signs
+          - information_signs
+        sign_features:
+          - movable_signs
+          - fixed_signs
+      drivable_area_edge:
+        - line_markers
+        - snowbanks
+        - solid_barriers # e.g. grating, rails, curb, cones
+        - temporary_line_marker
+        - none
+      drivable_area_shoulder:
+        - paved or gravel
+        - grass
+      drivable_area_surface:
+        drivable_area_surface_type:
+          - asphalt
+          - cement_concrete
+          - pavers
+          - cobblestone
+          - granite_setts
+          - gravel
+        drivable_area_surface_features:
+          damages:
+            - cracks
+            - potholes
+            - ruts
+            - swells
+          artificial_features:
+            - speed_bumps
+            - intentional_speed_reduction_obstacles
+        drivable_area_included_surface_condition:
+          - icy
+          - flooded
+          - standing_water
+          - snow_on_surface
+          - wet
+          - surface_contamination
+
+    junctions:
+      roundabout:
+        mini: # less than 28m inscribed circle diameter
+          roundabout_diameter: "<= 28 m"
+        compact: # with a central island of at least 4m diameter and inscribed circle diameter between 28m and 36m
+          roundabout_diameter: "[28 .. 36] m"
+        normal: # with a central island of at least 4m diameter and inscribed circle diameter between 36 and 100m
+          roundabout_diameter: "[36 .. 100] m"
+        large: # greater than 100m inscribed circle diameter
+          roundabout_diameter: ">= 100 m"
+      roundabout_diameter: integer length # newly added for value ranges
+      double: boolean # two roundabouts which are separated by a short link
+      roundabout_classification:
+        - signalized_roundabout
+        - non-signalized_roundabout_with_yielding_traffic
+        - non-signalized_roundabout_without_yielding_traffic
+      intersection:
+        - t-junction
+        - y-junction
+        - cross_road
+        - staggered
+        - grade_separated
+      intersection_classification:
+        - signalized_intersection
+        - non-signalized_intersection
+
+    basic_road_structures:
+      - building
+      - streetlight
+      - street_furniture # e.g. bollards
+      - vegetation
+
+    special_structures:
+      special_structures_type:
+        - automatic_access_control_barrier
+        - bridge
+        - pedestrian_crossing
+        - rail_crossing
+        - tunnel
+        - toll_plaza
+      special_structures_dimension:
+        special_structures_length: float length
+        special_structures_width: float length
+        special_structures_height: float length
+        special_structures_shoulder_width: float length
+      special_structures_usage:
+        - driving_on
+        - driving_under
+
+    temporary_drivable_area_structures:
+      - construction_site_detour
+      - refuse_collection
+      - road_work
+      - signage
+
+  environmental_conditions:
+
+    ambient_air_temperature: float temperature
+
+    weather:
+      wind:
+        no_wind:
+          wind_speed: "<= 0 m/s"
+        calm: # <0,2 m/s
+          wind_speed: "[0 .. 0.2] m/s"
+        light_air: # 0,3 – 1,5 m/s
+          wind_speed: "[0.2 .. 1.5] m/s"
+        light_breeze: # 1,6 – 3,3 m/s
+          wind_speed: "[1.5 .. 3.3] m/s"
+        gentle_breeze: # 3,4 – 5,4 m/s
+          wind_speed: "[3.3 .. 5.4] m/s"
+        moderate_breeze: # 5,5 – 7,9 m/s
+          wind_speed: "[5.4 .. 7.9] m/s"
+        fresh_breeze: # 8,0 – 10,7 m/s
+          wind_speed: "[7.9 .. 10.7] m/s"
+        strong_breeze: # 10,8 – 13,8 m/s
+          wind_speed: "[10.7 .. 13.8] m/s"
+        near_gale: # 13,9 – 17,1 m/s
+          wind_speed: "[13.8 .. 17.1] m/s"
+        gale: # 17,2 – 20,7 m/s
+          wind_speed: "[17.1 .. 20.7] m/s"
+        strong_gale: #  20,8 - 24,4 m/s
+          wind_speed: "[20.7 .. 24.4] m/s"
+        storm: # 24,5 – 28,4 m/s
+          wind_speed: "[24.4 .. 28.4] m/s"
+        violent_storm: # 28,5 – 32,6 m/s
+          wind_speed: "[28.4 .. 32.6] m/s"
+        hurricane_force: # >= 32,7 m/s
+          wind_speed: ">= 32.6 m/s"
+        wind_speed: float velocity # newly added for value ranges
+
+      rain:
+        average_rainfall_per_time: float precipitation_rate
+        average_rainfall_per_area: float precipitation_rate
+        rainfall:
+          - dynamic # commonly “frontal” – associated with large scale weather systems
+          - convective # typically showery and potentially very intense
+          - orographic # commonly “relief” – associated with hilly/mountainous terrain
+        rainfall_intensity:
+          no_rain:
+            rainfall_rate: "<= 0 mm/h"
+          light_rain: # < 2,5 mm/h
+            rainfall_rate: "[0 .. 2.5] mm/h"
+          moderate_rain: # 2,5 - 7,6 mm/h
+            rainfall_rate: "[2.5 .. 7.6] mm/h"
+          heavy_rain: # 7,6 mm/h - 50 mm/h
+            rainfall_rate: "[7.6 .. 50] mm/h"
+          violent_rain: # 50 mm/h - 100 mm/h
+            rainfall_rate: "[50 .. 100] mm/h"
+          cloudburst: # > 100 mm/h
+            rainfall_rate:  ">= 100 mm/h"
+        rainfall_rate: float precipitation_rate # newly added for value ranges
+
+      snowfall:
+        light_snow: # > 1 km
+          snowfall_visibility: ">= 1 km"
+        moderate_snow: # 0,5 km - 1 km
+          snowfall_visibility: "[0.5 .. 1] km"
+        heavy_snow: # < 0,5 km
+          snowfall_visibility: "<= 0.5 km"
+      snowfall_visibility: float length # newly added for value ranges
+      no_snow: boolean
+
+    particulates:
+      type:
+        - sand
+        - dust
+        - smoke_and_pollution
+        - volcanic_ash
+        - water_spray
+        - non-precipitating_water_droplets # mist/fog
+        - blowing_debris
+      intensity: float density
+      size: float length
+
+    illumination:
+      natural_illuminance:
+        day:
+          illuminance: ">= 2000 lux"
+        low_ambient:
+          illuminance: "[1 .. 2000] lux"
+        night:
+          illuminance: "<= 1 lux"
+      artificial_illuminance:
+        - streetlights
+        - oncoming_vehicle_lights
+        - indoor_lights
+      illuminance: float illuminance # newly added for value ranges
+
+      cloudiness:
+        clear: # 0 – 1 oktas
+          cloudiness_rate: "<= 1 Oktas"
+        partly_cloudy_few_clouds: # 1 – 2 oktas
+          cloudiness_rate: "[1 .. 2] Oktas"
+        partly_cloudy_scattered_clouds: # 3 – 4 oktas
+          cloudiness_rate: "[3 .. 4] Oktas"
+        partly_cloudy_broken_clouds: # 5 – 7 oktas
+          cloudiness_rate: "[5 .. 7] Oktas"
+        overcast: # 8 oktas
+          cloudiness_rate: ">= 8 Oktas"
+      cloudiness_rate: integer cloud_coverage # newly added for value ranges
+
+      elevation_of_the_sun: float angle
+      position_of_the_sun: float angle
+
+    connectivity:
+      communication:
+        - vehicle_to_vehicle_communication # V2V
+        - vehicle_to_infrastructure_communication # V2I
+        - vehicle_to_pedestrian_communication # V2P
+        - vehicle_to_network_communication # V2N
+      communication_type:
+        - cellular # e.g. 2G, 2.5G, 3G, 4G, 5G
+        - satellite
+        - 802.11p-based_Wi-Fi
+        - Short_range_communications # e.g. dedicated short-range communications (DSRC), intelligent transport systems (ITS-G5), sidelink PC5
+      positioning:
+        satellite_based_global_positioning:
+          - Galileo
+          - GLObal_NAvigation_Satellite_System # GLONASS
+          - Global_Positioning_System # GPS
+          - BeiDou
+          - Quasi-Zenith_Satellite_System # QZSS
+        local_positioning:
+          - any_local_positioning # newly added to avoid empty categoricals
+
+  dynamic_elements:
+
+    traffic_agents:
+      agent_type:
+        - motor_vehicle
+        - non-motor_vehicle
+        - vulnerable_road_users # pedestrians two-wheelers, bicycles, e-scooters
+        - animals
+      presence_of_special_vehicles:
+        - ambulances
+        - police_vehicles
+        - work_vehicles
+    subject_vehicle:
+      pre_defined_routes: shapefile
+      weight: float weight
