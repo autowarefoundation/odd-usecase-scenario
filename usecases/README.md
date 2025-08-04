@@ -8,14 +8,14 @@ Use cases in this directory follow a structured format based on the [Gherkin](ht
 
 ## File Structure
 
-- `UC-[TYPE]-[ID]-[VERSION].feature.md`: Use case definition files
-- `UC-[TYPE]-[ID]-[VERSION].png`: Associated scenario diagrams
+- `UC-[TYPE]-[ID]-[SUB ID].feature.md`: Use case definition files
+- `UC-[TYPE]-[ID]-[SUB ID].png`: Associated scenario diagrams
 
 Where:
 
 - `TYPE`: Category of use case (e.g., NTR for No Traffic Rules scenarios)
 - `ID`: Unique identifier within the category
-- `VERSION`: Version number of the use case
+- `SUB ID`: Sub-identifier for more granular use case differentiation
 
 ## Scenario Writing Guidelines
 
