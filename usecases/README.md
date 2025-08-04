@@ -4,7 +4,7 @@ This directory contains use case scenarios for Operational Design Domain (ODD) t
 
 ## Overview
 
-Use cases in this directory follow a structured format based on the [Gherkin](https://cucumber.io/docs/gherkin/) syntax, specifically using [Markdown with Gherkin (MDG)](https://github.com/cucumber/gherkin/blob/main/MARKDOWN_WITH_GHERKIN.md) format, providing clear and testable scenarios for autonomous vehicle validation. Each use case includes:
+Use cases in this directory follow a structured format based on the [Gherkin](https://cucumber.io/docs/gherkin/) syntax, specifically using [Markdown with Gherkin (MDG)](https://github.com/cucumber/gherkin/blob/main/MARKDOWN_WITH_GHERKIN.md) format, providing clear and testable scenarios for autonomous vehicle validation.
 
 ## File Structure
 
