@@ -6,9 +6,8 @@ MODULES:
     TITLE: ODD for Low Speed Vehicles
     DESCRIPTION: This module defines the ODD for Low Speed Vehicles (LSVs) as per ISO 34503.
     INCLUDE_AND:
-      module_intersection_komatsu: true
-      module_intersection_shiojiri: true
-      module_crosswalk: true      
+      module_drivable_area: true
+      module_junctions: true
 
   module_drivable_area:
     LABEL:
@@ -26,11 +25,11 @@ MODULES:
         - straight_lines
         - curves # ToDo: radius
       transverse_plane:
-        - 
+        - # ToDo: 1.15 deg
       longitudinal_plane:
         - up-slope
         - down-slope # ToDo: up to 10deg
-      lane_dimentions:
+      lane_dimensions:
         - any_lane_dimensions # ToDo: up to 2 lanes
       # ToDo: one-way, turn-only lanes
       drivable_area_surface:
@@ -58,5 +57,3 @@ MODULES:
     intersection_classification:
       - signalized
       - unsignalized
-  
-  module_
