@@ -1,0 +1,59 @@
+IMPORT:
+ - Domain_Concepts_Definition_ISO_34503.yaml
+
+MODULES:
+  odd_lsv_module:
+    TITLE: ODD for Low Speed Vehicles
+    DESCRIPTION: This module defines the ODD for Low Speed Vehicles (LSVs) as per ISO 34503.
+    INCLUDE_AND:
+      module_drivable_area: true
+      module_junctions: true
+
+  module_drivable_area:
+    LABEL:
+      drivable_area
+    INCLUDE_AND:
+      drivable_area_type:
+        - primary_roads
+        - distributor_roads
+        - minor_or local_roads
+        - parking_space
+      drivable_area_type_classification:
+        - with_active_traffic_management
+        - without_active_traffic_management
+      horizontal_plane:
+        - straight_lines
+        - curves # ToDo: radius
+      transverse_plane:
+        - # ToDo: 1.15 deg
+      longitudinal_plane:
+        - up-slope
+        - down-slope # ToDo: up to 10deg
+      lane_dimensions:
+        - any_lane_dimensions # ToDo: up to 2 lanes
+      # ToDo: one-way, turn-only lanes
+      drivable_area_surface:
+        - asphalt
+        - cement_concrete
+        - pavers
+      drivable_area_edge:
+        - line_markers
+        - solid_barriers
+      drivable_area_shoulder:
+        - paved or gravel
+  
+  module_junctions:
+    LABEL:
+      junctions
+    roundabout:
+      - mini
+      - compact
+      - normal
+      - large
+    intersection:
+      - t-junction
+      - y-junction
+      - cross_road
+    intersection_classification:
+      - signalized
+      - unsignalized
