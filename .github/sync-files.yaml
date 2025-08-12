@@ -14,7 +14,7 @@
     - source: .github/workflows/spell-check-differential.yaml
     - source: .github/workflows/sync-files.yaml
     - source: .markdown-link-check.json
-    - source: .markdownlint.yml
+    - source: .markdownlint.yaml
     - source: .pre-commit-config.yaml
     - source: .prettierignore
     - source: .prettierrc.json
