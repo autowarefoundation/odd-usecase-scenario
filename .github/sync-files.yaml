@@ -13,7 +13,7 @@
     - source: .github/workflows/semantic-pull-request.yaml
     - source: .github/workflows/spell-check-differential.yaml
     - source: .github/workflows/sync-files.yaml
-    - source: .markdown-lint-check.json
+    - source: .markdown-link-check.json
     - source: .markdownlint.yml
     - source: .pre-commit-config.yaml
     - source: .prettierignore
