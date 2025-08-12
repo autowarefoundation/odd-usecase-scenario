@@ -17,7 +17,7 @@
     - source: .markdownlint.yaml
     - source: .pre-commit-config.yaml
     - source: .prettierignore
-    - source: .prettierrc.json
+    - source: .prettierrc.yaml
     - source: .yamllint.yaml
     - source: CODE_OF_CONDUCT.md
     - source: CONTRIBUTING.md
