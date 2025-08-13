@@ -29,3 +29,7 @@
         sd "Autoware Documentation" "ODD Usecase Scenario" {source}
         sd "autoware-documentation" "odd-usecase-scenario" {source}
         sd "repo_url: .*" "repo_url: https://github.com/autowarefoundation/odd-usecase-scenario" {source}
+        sd "/edit/main/docs/" "/edit/main/" {source}
+        sd "docs_dir: .*" "docs_dir: ." {source}
+        sd "assets/(\w+)" "docs/assets/\$1" {source}
+        
