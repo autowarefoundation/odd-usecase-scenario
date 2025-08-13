@@ -5,8 +5,8 @@
 site_name: ODD Usecase Scenario
 site_url: https://autowarefoundation.github.io/odd-usecase-scenario
 repo_url: https://github.com/autowarefoundation/odd-usecase-scenario
-edit_uri: https://github.com/autowarefoundation/odd-usecase-scenario/edit/main/docs/
-docs_dir: docs
+edit_uri: https://github.com/autowarefoundation/odd-usecase-scenario/edit/main/
+docs_dir: .
 copyright: Copyright &copy; 2023 The Autoware Foundation
 
 theme:
@@ -20,7 +20,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.footer
-  favicon: assets/images/autoware-foundation.png
+  favicon: docs/assets/images/autoware-foundation.png
   icon:
     logo: fontawesome/solid/car
     repo: fontawesome/brands/github
@@ -45,11 +45,11 @@ extra:
     provider: mike
 
 extra_css:
-  - assets/css/extra.css
+  - docs/assets/css/extra.css
   - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 
 extra_javascript:
-  - assets/js/mathjax.js
+  - docs/assets/js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
