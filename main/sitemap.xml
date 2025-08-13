@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/main/</loc>
+         <lastmod>2025-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/main/CODE_OF_CONDUCT/</loc>
+         <lastmod>2025-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/main/CONTRIBUTING/</loc>
+         <lastmod>2025-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/main/DISCLAIMER/</loc>
+         <lastmod>2025-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/main/usecases/</loc>
+         <lastmod>2025-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/main/usecases/UC-NTR-001-0001.feature/</loc>
+         <lastmod>2025-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
