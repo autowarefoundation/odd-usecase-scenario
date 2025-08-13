@@ -1,0 +1,2 @@
+nav:
+  - ... |  regex=^(?!.*(CONTRIBUTING.md|CODE_OF_CONDUCT.md|DISCLAIMER.md)).*$
