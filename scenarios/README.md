@@ -4,7 +4,7 @@ This document describes the mapping between use cases defined in this repository
 
 ## Use Case to Scenario Mapping
 
-The following table provides the traceability between the use cases in the `usecases/` directory and their implementation as scenarios in the evaluator.
+The following table provides the traceability between the use cases and their implementation as scenarios in the evaluator.
 
 ### [Urban-Dense](https://evaluation.tier4.jp/evaluation/vehicle_catalogs/aaf96902-ab17-4957-93a0-e3b6aa7b9efd?project_id=awf) Catalog
 
