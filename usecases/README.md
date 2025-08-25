@@ -43,7 +43,7 @@ Follow the Gherkin syntax with specific semantic meanings:
 
 Use predefined actor names with consistent conventions:
 
-- **Primary actors**: `Ego`, `Car`, `Pedestrian`, `Bicycle`, `Motorbike`, `Bus`, `Truck`, `Animal`
+- **Primary actors**: `Ego`, `Npc`, `Pedestrian`, `Bicycle`, `Motorbike`, `Bus`, `Truck`, `Animal`
 - **Uniqueness**: `Ego` must be unique; other actors use suffix `{0...n}` for identification
 - **Examples**: `Car0`, `Car1`, `Pedestrian0`, `Truck2`
 
