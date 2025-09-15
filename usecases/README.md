@@ -19,6 +19,13 @@ Where:
 
 ## Scenario Writing Guidelines
 
+### Feature and Scenario Descriptions
+
+When writing use cases, include clear descriptions for Features and Scenarios:
+
+- **Feature Description**: Explain **Why** - the rationale and necessity for the feature being tested
+- **Scenario Description**: Explain **What** - specifically what behavior or condition is being tested
+
 ### Keyword Usage
 
 Follow the Gherkin syntax with specific semantic meanings:
@@ -36,7 +43,7 @@ Follow the Gherkin syntax with specific semantic meanings:
 
 Use predefined actor names with consistent conventions:
 
-- **Primary actors**: `Ego`, `Car`, `Pedestrian`, `Bicycle`, `Motorbike`, `Bus`, `Truck`, `Animal`
+- **Primary actors**: `Ego`, `Npc`, `Pedestrian`, `Bicycle`, `Motorbike`, `Bus`, `Truck`, `Animal`
 - **Uniqueness**: `Ego` must be unique; other actors use suffix `{0...n}` for identification
 - **Examples**: `Car0`, `Car1`, `Pedestrian0`, `Truck2`
 
