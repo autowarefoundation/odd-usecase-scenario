@@ -2,32 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/</loc>
-         <lastmod>2025-08-13</lastmod>
+         <lastmod>2025-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/CODE_OF_CONDUCT/</loc>
-         <lastmod>2025-08-13</lastmod>
+         <lastmod>2025-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/CONTRIBUTING/</loc>
-         <lastmod>2025-08-13</lastmod>
+         <lastmod>2025-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/DISCLAIMER/</loc>
-         <lastmod>2025-08-13</lastmod>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/odd/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/scenarios/</loc>
+         <lastmod>2025-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/</loc>
-         <lastmod>2025-08-13</lastmod>
+         <lastmod>2025-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0001.feature/</loc>
-         <lastmod>2025-08-13</lastmod>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0002.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0003.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0004.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0005.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0006.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0007.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0008.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0009.feature/</loc>
+         <lastmod>2025-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

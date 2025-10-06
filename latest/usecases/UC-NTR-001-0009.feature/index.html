@@ -8,28 +8,26 @@
       
       
       
-        <link rel="canonical" href="https://autowarefoundation.github.io/odd-usecase-scenario/latest/DISCLAIMER/">
+        <link rel="canonical" href="https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0009.feature/">
       
       
-        <link rel="prev" href="../CONTRIBUTING/">
+        <link rel="prev" href="../UC-NTR-001-0008.feature/">
       
       
-        <link rel="next" href="../odd/">
       
-      
-      <link rel="icon" href="../docs/assets/images/autoware-foundation.png">
+      <link rel="icon" href="../../docs/assets/images/autoware-foundation.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.6.21">
     
     
       
-        <title>DISCLAIMER - ODD Usecase Scenario</title>
+        <title>Feature: Handle cut-in from vehicle starting from roadside - ODD Usecase Scenario</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2a3383ac.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,11 +46,11 @@
       
     
     
-      <link rel="stylesheet" href="../docs/assets/css/extra.css">
+      <link rel="stylesheet" href="../../docs/assets/css/extra.css">
     
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#feature-handle-cut-in-from-vehicle-starting-from-roadside" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +96,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="ODD Usecase Scenario" class="md-header__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
+    <a href="../.." title="ODD Usecase Scenario" class="md-header__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M135.2 117.4 109.1 192h293.8l-26.1-74.6c-4.5-12.8-16.6-21.4-30.2-21.4H165.4c-13.6 0-25.7 8.6-30.2 21.4m-95.6 79.4L74.8 96.3C88.3 57.8 124.6 32 165.4 32h181.2c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2v192c0 17.7-14.3 32-32 32h-32c-17.7 0-32-14.3-32-32v-32H96v32c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V256c0-26.7 16.4-49.6 39.6-59.2M128 304a32 32 0 1 0-64 0 32 32 0 1 0 64 0m288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
@@ -113,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DISCLAIMER
+              Feature: Handle cut-in from vehicle starting from roadside
             
           </span>
         </div>
@@ -218,7 +221,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -239,7 +242,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../odd/" class="md-tabs__link">
+        <a href="../../odd/" class="md-tabs__link">
           
   
   
@@ -261,7 +264,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../scenarios/" class="md-tabs__link">
+        <a href="../../scenarios/" class="md-tabs__link">
           
   
   
@@ -279,11 +282,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../usecases/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -325,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="ODD Usecase Scenario" class="md-nav__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
+    <a href="../.." title="ODD Usecase Scenario" class="md-nav__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M135.2 117.4 109.1 192h293.8l-26.1-74.6c-4.5-12.8-16.6-21.4-30.2-21.4H165.4c-13.6 0-25.7 8.6-30.2 21.4m-95.6 79.4L74.8 96.3C88.3 57.8 124.6 32 165.4 32h181.2c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2v192c0 17.7-14.3 32-32 32h-32c-17.7 0-32-14.3-32-32v-32H96v32c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V256c0-26.7 16.4-49.6 39.6-59.2M128 304a32 32 0 1 0-64 0 32 32 0 1 0 64 0m288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
@@ -355,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -402,7 +407,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../odd/" class="md-nav__link ">
+            <a href="../../odd/" class="md-nav__link ">
               
   
   
@@ -464,7 +469,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../scenarios/" class="md-nav__link ">
+            <a href="../../scenarios/" class="md-nav__link ">
               
   
   
@@ -498,6 +503,8 @@
       
   
   
+    
+  
   
   
     
@@ -529,22 +536,23 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../usecases/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -557,13 +565,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Usecases
@@ -579,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0001.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0001.feature/" class="md-nav__link">
         
   
   
@@ -602,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0002.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0002.feature/" class="md-nav__link">
         
   
   
@@ -625,7 +633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0003.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0003.feature/" class="md-nav__link">
         
   
   
@@ -648,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0004.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0004.feature/" class="md-nav__link">
         
   
   
@@ -671,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0005.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0005.feature/" class="md-nav__link">
         
   
   
@@ -694,7 +702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0006.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0006.feature/" class="md-nav__link">
         
   
   
@@ -717,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0007.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0007.feature/" class="md-nav__link">
         
   
   
@@ -740,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0008.feature/" class="md-nav__link">
+      <a href="../UC-NTR-001-0008.feature/" class="md-nav__link">
         
   
   
@@ -760,10 +768,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../usecases/UC-NTR-001-0009.feature/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Feature: Handle cut-in from vehicle starting from roadside
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -774,6 +804,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario Outline: Roadside vehicle starts moving as ego approaches
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scenario Outline: Roadside vehicle starts moving as ego approaches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -803,6 +877,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario Outline: Roadside vehicle starts moving as ego approaches
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scenario Outline: Roadside vehicle starts moving as ego approaches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -821,55 +929,39 @@
   
 
 
-  <h1>DISCLAIMER</h1>
-
-<div><p>DISCLAIMER</p>
-<p>“Autoware” will be provided by The Autoware Foundation under the Apache License 2.0.
-This “DISCLAIMER” will be applied to all users of Autoware (a “User” or “Users”) with
-the Apache License 2.0 and Users shall hereby approve and acknowledge all the contents
-specified in this disclaimer below and will be deemed to consent to this
-disclaimer without any objection upon utilizing or downloading Autoware.</p>
-<p>Disclaimer and Waiver of Warranties</p>
-<ol>
-<li>
-<p>AUTOWARE FOUNDATION MAKES NO REPRESENTATION OR WARRANTY OF ANY KIND,
-   EXPRESS OR IMPLIED, WITH RESPECT TO PROVIDING AUTOWARE (the “Service”)
-   including but not limited to any representation or warranty (i) of fitness or
-   suitability for a particular purpose contemplated by the Users, (ii) of the
-   expected functions, commercial value, accuracy, or usefulness of the Service,
-   (iii) that the use by the Users of the Service complies with the laws and
-   regulations applicable to the Users or any internal rules established by
-   industrial organizations, (iv) that the Service will be free of interruption or
-   defects, (v) of the non-infringement of any third party's right and (vi) the
-   accuracy of the content of the Services and the software itself.</p>
-</li>
-<li>
-<p>The Autoware Foundation shall not be liable for any damage incurred by the
-   User that are attributable to the Autoware Foundation for any reasons
-   whatsoever. UNDER NO CIRCUMSTANCES SHALL THE AUTOWARE FOUNDATION BE LIABLE FOR
-   INCIDENTAL, INDIRECT, SPECIAL OR FUTURE DAMAGES OR LOSS OF PROFITS.</p>
-</li>
-<li>
-<p>A User shall be entirely responsible for the content posted by the User and
-   its use of any content of the Service or the Website. If the User is held
-   responsible in a civil action such as a claim for damages or even in a criminal
-   case, the Autoware Foundation and member companies, governments and academic &amp;
-   non-profit organizations and their directors, officers, employees and agents
-   (collectively, the “Indemnified Parties”) shall be completely discharged from
-   any rights or assertions the User may have against the Indemnified Parties, or
-   from any legal action, litigation or similar procedures.</p>
-</li>
-</ol>
-<p>Indemnity</p>
-<p>A User shall indemnify and hold the Indemnified Parties harmless from any of
-their damages, losses, liabilities, costs or expenses (including attorneys'
-fees or criminal compensation), or any claims or demands made against the
-Indemnified Parties by any third party, due to or arising out of, or in
-connection with utilizing Autoware (including the representations and
-warranties), the violation of applicable Product Liability Law of each country
-(including criminal case) or violation of any applicable laws by the Users, or
-the content posted by the User or its use of any content of the Service or the
-Website.</p></div>
+<div><h1 id="feature-handle-cut-in-from-vehicle-starting-from-roadside">Feature: Handle cut-in from vehicle starting from roadside<a class="headerlink" href="#feature-handle-cut-in-from-vehicle-starting-from-roadside" title="Permanent link">#</a></h1>
+<p>This feature ensures that the ego vehicle can safely handle a vehicle that starts moving from the roadside as the ego approaches.</p>
+<h2 id="scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches">Scenario Outline: Roadside vehicle starts moving as ego approaches<a class="headerlink" href="#scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches" title="Permanent link">#</a></h2>
+<p>Confirm that the vehicle safely handles a vehicle starting from the roadside and cutting in.</p>
+<ul>
+<li>Given Ego is driving at <vxi_ego></vxi_ego></li>
+<li>And Npc0 is stopping side of the road</li>
+<li>When Npc0 cuts into the ego's lane at <vx_npc0> if the longitudinal distance is under <d_trigger_npc0></d_trigger_npc0></vx_npc0></li>
+<li>Then Ego reaches the destination without collisions</li>
+<li>And Ego does not decelerate at a rate below <amin_ego></amin_ego></li>
+</ul>
+<p><img alt="Overview" src="../images/UC-NTR-001-0009.drawio.svg"></p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>vx_npc0</th>
+<th>vxi_ego</th>
+<th>d_trigger_npc0</th>
+<th>w</th>
+<th>amin_ego</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8 km/h</td>
+<td>15 km/h</td>
+<td>7.0 m</td>
+<td>3.0 m</td>
+<td>-2.499 m/s^2</td>
+</tr>
+</tbody>
+</table></div>
 
 
 
@@ -905,7 +997,7 @@ Website.</p></div>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../CONTRIBUTING/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Contributing">
+          <a href="../UC-NTR-001-0008.feature/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Feature: Handle cut-in from a faster vehicle that then slows down">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -915,27 +1007,11 @@ Website.</p></div>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Contributing
+                Feature: Handle cut-in from a faster vehicle that then slows down
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../odd/" class="md-footer__link md-footer__link--next" aria-label="Next: ODD">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                ODD
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -968,12 +1044,12 @@ Website.</p></div>
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../docs/assets/js/mathjax.js"></script>
+        <script src="../../docs/assets/js/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
