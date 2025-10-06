@@ -147,9 +147,9 @@ The approach for describing such relationships in Gherkin also differs depending
 ## Continuously Met Conditions
 
 When describing driving scenarios, there may be times when it is desirable to specify a specific condition that Ego must obey from the start of the scenario until its end.
-Ghekin does not provide a built-in approach for defining these types of conditions, so it must be handled in a custom ruleset.
+Gherkin does not provide a built-in approach for defining these types of conditions, so it must be handled in a custom ruleset.
 
-If the number of `When`/`Then` steps is low (~2), then it is possible to simply repeat the condition in all `Then` sections. The problem is when there is a large number of steps, making the repetitions take increasingly more space and degradating the scenario's readability. To handle these cases, the following **optional** approach can be adopted:
+If the number of `When`/`Then` steps is low (~2), then it is possible to simply repeat the condition in all `Then` sections. The problem is when there is a large number of steps, making the repetitions take increasingly more space and degrading the scenario's readability. To handle these cases, the following **optional** approach can be adopted:
 - List the continuously met conditions only on the last `Then` keyword of the scenario.
 - Each condition must be described in a separate statement.
 - At the end of each condition, append "at all times" to clearly state the intended meaning.
@@ -159,14 +159,14 @@ If the number of `When`/`Then` steps is low (~2), then it is possible to simply 
   > When Car0 drives past Ego<br>
   > Then Ego drives straight at the same speed<br>
   > And Ego drives with no collisions<br>
-  > When Car0 cuts in aheda of Ego<br>
+  > When Car0 cuts in ahead of Ego<br>
   > Then Ego slows down<br>
   > And Ego drives with no collisions
 
 - OK)
   > When Car0 drives past Ego<br>
   > Then Ego drives straight at the same speed<br>
-  > When Car0 cuts in aheda of Ego<br>
+  > When Car0 cuts in ahead of Ego<br>
   > Then Ego slows down<br>
   > And Ego drives with no collisions at all times<br>
 
