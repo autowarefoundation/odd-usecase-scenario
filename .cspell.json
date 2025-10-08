@@ -1,0 +1,15 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "vrel"
+    ],
+    "patterns": [
+        {
+            "name": "gherkin_parameter_abbreviations",
+            "pattern": "/<(s|v|a|j|d|vrel)(x|y|e)?(i|min|max)?>/g"
+        }
+    ],
+
+    "ignoreRegExpList": ["gherkin_parameter_abbreviations"]
+}
