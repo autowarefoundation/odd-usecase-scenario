@@ -34,6 +34,13 @@ Where:
 - NG) Ego will start driving (future tense)
 - NG) Ego does not stop (negative)
 
+## Feature and Scenario Descriptions
+
+When writing use cases, include clear descriptions for Features and Scenarios:
+
+- **Feature Description**: Explain **Why** - the rationale and necessity for the feature being tested
+- **Scenario Description**: Explain **What** - specifically what behavior or condition is being tested
+
 ## Keyword Usage
 
 Follow the Gherkin syntax with specific semantic meanings:
