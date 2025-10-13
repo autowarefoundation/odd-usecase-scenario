@@ -1,0 +1,106 @@
+IMPORT:
+  - ../Domain_Concapts_Definition_ISO_34503.yaml
+
+ODD:
+  pov_vision_pilot_main_module:
+    TITLE: ODD for Vision Pilot
+    DESCRIPTION: This module defines the ODD for the Vision Pilot product of the PoV Working Group.
+    INCLUDE_AND:
+      module_l3_highway_lane_keeping_free_driving: true
+      module_l3_highway_lane_keeping_follow_preceding_vehicle: true
+      module_l3_highway_lane_keeping_cut_in_left: true
+      module_l3_highway_lane_keeping_cut_in_right: true
+      module_l3_highway_lane_keeping_obstacle_ahead: true
+
+MODULES:
+  module_l3_highway_lane_keeping_free_driving:
+    TITLE: L3 lane keeping on highway with no preceding vehicles
+    INCLUDE_AND:
+      module_highway_main_road
+    EXCLUDE_OR:
+      bad_weather: true
+      bad_visibility: true
+
+  module_l3_highway_lane_keeping_follow_preceding_vehicle:
+    TITLE: L3 lane keeping on highway with preceding vehicle
+    INCLUDE_AND:
+      module_highway_main_road
+    EXCLUDE_OR:
+      bad_weather: true
+      bad_visibility: true
+
+  module_l3_highway_lane_keeping_cut_in_left:
+    TITLE: L3 lane keeping on highway with obstacle cutting in ahead of ego from the left side
+    INCLUDE_AND:
+      module_highway_main_road
+    EXCLUDE_OR:
+      bad_weather: true
+      bad_visibility: true
+
+  module_l3_highway_lane_keeping_cut_in_right:
+    TITLE: L3 lane keeping on highway with obstacle cutting in ahead of ego from the right side
+    INCLUDE_AND:
+      module_highway_main_road
+    EXCLUDE_OR:
+      bad_weather: true
+      bad_visibility: true
+
+  module_l3_highway_lane_keeping_obstacle_ahead:
+    TITLE: L3 lane keeping on highway with static obstacle ahead of ego
+    INCLUDE_AND:
+      module_highway_main_road
+    EXCLUDE_OR:
+      bad_weather: true
+      bad_visibility: true
+
+  module_highway_main_road:
+    TITLE: The main driving area of the highway
+    INCLUDE AND:
+      drivable_area_type: motorways_or_highways_or_interstates
+      horizontal_plane:
+        - straight_lines
+        - curves
+      transverse_plane_type:
+        - divided
+        - undivided
+        - pavements
+      longitudinal_plane:
+        - up-slope # positive gradient
+        - down-slope # negative-gradient
+        - level_plane
+      lane_dimensions:
+        - any_lane_dimension
+      lane_marking:
+        - clear_lane_marking
+        - blurred_lane_marking
+        - no_lane_marking
+        - temporary_lane_marking
+      direction_of_travel:
+        - right-hand_travel
+        - left-hand_travel
+      sign_types:
+        - regulatory_signs # e.g. traffic lights
+        - warning_signs
+        - information_signs
+      sign_features:
+        - movable_signs
+        - fixed_signs
+      temporary_drivable_area_structures:
+        - construction_site_detour
+        - refuse_collection
+        - road_work
+        - signage
+    EXCLUDE_OR:
+      module_highway_special_areas: true
+
+  module_highway_special_areas:
+    TITLE: Special areas within the highway
+    INCLUDE_OR:
+      drivable_area_type: slip_roads_or_off-ramps
+      special_structures_type:
+        - automatic_access_control_barrier
+        - bridge
+        - pedestrian_crossing
+        - rail_crossing
+        - tunnel
+        - toll_plaza
