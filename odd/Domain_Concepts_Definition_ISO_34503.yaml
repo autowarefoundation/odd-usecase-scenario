@@ -3,8 +3,8 @@ TAXONOMY:
   scenery_elements:
 
     zone:
-     geofenced_areas: shapefile
-     zone_type:
+      geofenced_areas: shapefile
+      zone_type:
         fixed_zone:
           - school_zone
           - environmental_zone
@@ -206,7 +206,7 @@ TAXONOMY:
           wind_speed: "[28.4 .. 32.6] m/s"
         hurricane_force: # >= 32,7 m/s
           wind_speed: ">= 32.6 m/s"
-        wind_speed: float velocity # newly added for value ranges
+      wind_speed: float velocity # newly added for value ranges
 
       rain:
         average_rainfall_per_time: float precipitation_rate
@@ -311,6 +311,7 @@ TAXONOMY:
         - non-motor_vehicle
         - vulnerable_road_users # pedestrians two-wheelers, bicycles, e-scooters
         - animals
+        - horse_riders
       presence_of_special_vehicles:
         - ambulances
         - police_vehicles

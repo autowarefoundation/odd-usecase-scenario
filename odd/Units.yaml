@@ -1,0 +1,66 @@
+TAXONOMY:
+
+  unit_types:
+    - length
+    - area
+    - volume
+    - angle
+    - force
+    - weight = force
+    - duration
+    - time
+    - count
+    - fraction # (for example, 0.315), % is fraction * 100
+    - temperature
+    - frequency
+    - charge
+    - illuminance
+    - luminous_flux
+    - sound_intensity
+    - cloud_coverage
+    - grains
+    - electric_potential
+    - electric_current
+    - electric_current_density
+    - power
+    - data_size
+    - velocity = length / time
+    - precipitation_rate = length / time # not volume over time
+    - occurrence = count / time
+    - bandwidth = data_size / time
+    - pressure = force / area
+    - torque = force * length
+    - acceleration = velocity / time^2
+    - risk = occurrence / time
+    - reliability = occurrence / time
+    - confidence = occurrence / count
+    - percentile = count / count
+    - agent_density = count / length
+    - agent_flow_rate = count / time
+
+  conversion:
+    temperature:
+      C:
+        F:
+          scale: 1.8
+          offset: 32
+        K:
+          scale: 1.0
+          offset: 273.15
+    length:
+      m:
+        mm:
+          scale: 1000
+          offset: 0
+        cm:
+          scale: 100
+          offset: 0
+        km:
+          scale: 0.001
+          offset: 0
+        in:
+          scale: 39.37008
+          offset: 0
+        mi:
+          scale: 0.00062
+          offset: 0
