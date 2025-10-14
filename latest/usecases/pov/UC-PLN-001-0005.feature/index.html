@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0009.feature/">
+        <link rel="canonical" href="https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/pov/UC-PLN-001-0005.feature/">
       
       
-        <link rel="prev" href="../UC-NTR-001-0008.feature/">
+        <link rel="prev" href="../UC-PLN-001-0004.feature/">
       
       
-        <link rel="next" href="../pov/">
+        <link rel="next" href="../UC-PLN-001-0006.feature/">
       
       
-      <link rel="icon" href="../../docs/assets/images/autoware-foundation.png">
+      <link rel="icon" href="../../../docs/assets/images/autoware-foundation.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.6.21">
     
     
       
-        <title>Feature: Handle cut-in from vehicle starting from roadside - ODD Usecase Scenario</title>
+        <title>Feature: Maintain safe distance from hidden vehicle slowing down - ODD Usecase Scenario</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2a3383ac.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,11 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="../../docs/assets/css/extra.css">
+      <link rel="stylesheet" href="../../../docs/assets/css/extra.css">
     
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#feature-handle-cut-in-from-vehicle-starting-from-roadside" class="md-skip">
+        <a href="#feature-maintain-safe-distance-from-hidden-vehicle-slowing-down" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="ODD Usecase Scenario" class="md-header__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
+    <a href="../../.." title="ODD Usecase Scenario" class="md-header__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M135.2 117.4 109.1 192h293.8l-26.1-74.6c-4.5-12.8-16.6-21.4-30.2-21.4H165.4c-13.6 0-25.7 8.6-30.2 21.4m-95.6 79.4L74.8 96.3C88.3 57.8 124.6 32 165.4 32h181.2c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2v192c0 17.7-14.3 32-32 32h-32c-17.7 0-32-14.3-32-32v-32H96v32c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V256c0-26.7 16.4-49.6 39.6-59.2M128 304a32 32 0 1 0-64 0 32 32 0 1 0 64 0m288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Feature: Handle cut-in from vehicle starting from roadside
+              Feature: Maintain safe distance from hidden vehicle slowing down
             
           </span>
         </div>
@@ -223,7 +223,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -244,7 +244,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../odd/" class="md-tabs__link">
+        <a href="../../../odd/" class="md-tabs__link">
           
   
   
@@ -266,7 +266,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../scenarios/" class="md-tabs__link">
+        <a href="../../../scenarios/" class="md-tabs__link">
           
   
   
@@ -290,7 +290,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -332,7 +332,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="ODD Usecase Scenario" class="md-nav__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
+    <a href="../../.." title="ODD Usecase Scenario" class="md-nav__button md-logo" aria-label="ODD Usecase Scenario" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M135.2 117.4 109.1 192h293.8l-26.1-74.6c-4.5-12.8-16.6-21.4-30.2-21.4H165.4c-13.6 0-25.7 8.6-30.2 21.4m-95.6 79.4L74.8 96.3C88.3 57.8 124.6 32 165.4 32h181.2c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2v192c0 17.7-14.3 32-32 32h-32c-17.7 0-32-14.3-32-32v-32H96v32c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V256c0-26.7 16.4-49.6 39.6-59.2M128 304a32 32 0 1 0-64 0 32 32 0 1 0 64 0m288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
@@ -362,7 +362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -409,7 +409,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../odd/" class="md-nav__link ">
+            <a href="../../../odd/" class="md-nav__link ">
               
   
   
@@ -471,7 +471,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../scenarios/" class="md-nav__link ">
+            <a href="../../../scenarios/" class="md-nav__link ">
               
   
   
@@ -556,7 +556,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -591,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0001.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0001.feature/" class="md-nav__link">
         
   
   
@@ -614,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0002.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0002.feature/" class="md-nav__link">
         
   
   
@@ -637,7 +637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0003.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0003.feature/" class="md-nav__link">
         
   
   
@@ -660,7 +660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0004.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0004.feature/" class="md-nav__link">
         
   
   
@@ -683,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0005.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0005.feature/" class="md-nav__link">
         
   
   
@@ -706,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0006.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0006.feature/" class="md-nav__link">
         
   
   
@@ -729,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0007.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0007.feature/" class="md-nav__link">
         
   
   
@@ -752,12 +752,212 @@
   
   
     <li class="md-nav__item">
-      <a href="../UC-NTR-001-0008.feature/" class="md-nav__link">
+      <a href="../../UC-NTR-001-0008.feature/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Feature: Handle cut-in from a faster vehicle that then slows down
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../UC-NTR-001-0009.feature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature: Handle cut-in from vehicle starting from roadside
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Pov
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_11" id="__nav_4_11_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_11">
+            <span class="md-nav__icon md-icon"></span>
+            Pov
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UC-PLN-001-0001.feature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature: Maintain safe distance from preceding vehicle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UC-PLN-001-0002.feature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature: Maintain safe distance from preceding motorcycle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UC-PLN-001-0003.feature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature: Maintain safe distance from cutting-in vehicle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UC-PLN-001-0004.feature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature: Maintain safe distance from cutting-in motorcycle
     
   </span>
   
@@ -789,7 +989,7 @@
   
   
   <span class="md-ellipsis">
-    Feature: Handle cut-in from vehicle starting from roadside
+    Feature: Maintain safe distance from hidden vehicle slowing down
     
   </span>
   
@@ -802,7 +1002,7 @@
   
   
   <span class="md-ellipsis">
-    Feature: Handle cut-in from vehicle starting from roadside
+    Feature: Maintain safe distance from hidden vehicle slowing down
     
   </span>
   
@@ -825,19 +1025,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches" class="md-nav__link">
+  <a href="#scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-left" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario Outline: Roadside vehicle starts moving as ego approaches
+      Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the left
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Scenario Outline: Roadside vehicle starts moving as ego approaches">
+    <nav class="md-nav" aria-label="Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the left">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#examples" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Examples:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the right
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the right">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples:
     </span>
   </a>
   
@@ -863,208 +1087,8 @@
   
   
   
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_11" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../pov/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    Pov
-    
-  </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_4_11" id="__nav_4_11_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_11_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_11">
-            <span class="md-nav__icon md-icon"></span>
-            Pov
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
-      <a href="../pov/UC-PLN-001-0001.feature/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Feature: Maintain safe distance from preceding vehicle
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pov/UC-PLN-001-0002.feature/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Feature: Maintain safe distance from preceding motorcycle
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pov/UC-PLN-001-0003.feature/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Feature: Maintain safe distance from cutting-in vehicle
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pov/UC-PLN-001-0004.feature/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Feature: Maintain safe distance from cutting-in motorcycle
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pov/UC-PLN-001-0005.feature/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Feature: Maintain safe distance from hidden vehicle slowing down
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pov/UC-PLN-001-0006.feature/" class="md-nav__link">
+      <a href="../UC-PLN-001-0006.feature/" class="md-nav__link">
         
   
   
@@ -1087,7 +1111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pov/UC-PLN-002-0001.feature/" class="md-nav__link">
+      <a href="../UC-PLN-002-0001.feature/" class="md-nav__link">
         
   
   
@@ -1110,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pov/UC-PLN-003-0001.feature/" class="md-nav__link">
+      <a href="../UC-PLN-003-0001.feature/" class="md-nav__link">
         
   
   
@@ -1133,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pov/UC-PLN-004-0001.feature/" class="md-nav__link">
+      <a href="../UC-PLN-004-0001.feature/" class="md-nav__link">
         
   
   
@@ -1156,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pov/UC-PLN-004-0002.feature/" class="md-nav__link">
+      <a href="../UC-PLN-004-0002.feature/" class="md-nav__link">
         
   
   
@@ -1179,7 +1203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pov/UC-PLN-004-0003.feature/" class="md-nav__link">
+      <a href="../UC-PLN-004-0003.feature/" class="md-nav__link">
         
   
   
@@ -1237,19 +1261,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches" class="md-nav__link">
+  <a href="#scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-left" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario Outline: Roadside vehicle starts moving as ego approaches
+      Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the left
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Scenario Outline: Roadside vehicle starts moving as ego approaches">
+    <nav class="md-nav" aria-label="Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the left">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#examples" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Examples:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the right
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the right">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples:
     </span>
   </a>
   
@@ -1279,36 +1327,137 @@
   
 
 
-<div><h1 id="feature-handle-cut-in-from-vehicle-starting-from-roadside">Feature: Handle cut-in from vehicle starting from roadside<a class="headerlink" href="#feature-handle-cut-in-from-vehicle-starting-from-roadside" title="Permanent link">#</a></h1>
-<p>This feature ensures that the ego vehicle can safely handle a vehicle that starts moving from the roadside as the ego approaches.</p>
-<h2 id="scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches">Scenario Outline: Roadside vehicle starts moving as ego approaches<a class="headerlink" href="#scenario-outline-roadside-vehicle-starts-moving-as-ego-approaches" title="Permanent link">#</a></h2>
-<p>Confirm that the vehicle safely handles a vehicle starting from the roadside and cutting in.</p>
+<div><h1 id="feature-maintain-safe-distance-from-hidden-vehicle-slowing-down">Feature: Maintain safe distance from hidden vehicle slowing down<a class="headerlink" href="#feature-maintain-safe-distance-from-hidden-vehicle-slowing-down" title="Permanent link">#</a></h1>
+<p>Ensures that ego is able to keep a safe distance from a slowing vehicle that is initially obstructed from ego's perception by another preceding vehicle. This is required to provide ego with the ability to quickly react to objects detected suddenly.</p>
+<h2 id="scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-left">Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the left<a class="headerlink" href="#scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-left" title="Permanent link">#</a></h2>
+<p>Confirm that ego is able to adjust its speed such as to maintain a safe distance from a decelerating vehicle that is initially hidden by a preceding vehicle, when the preceding vehicle cuts out from ego lane to the left.</p>
 <ul>
 <li>Given Ego is driving at <vxi_ego></vxi_ego></li>
-<li>And Npc0 is stopping side of the road</li>
-<li>When Npc0 cuts into the ego's lane at <vx_npc0> if the longitudinal distance is under <d_trigger_npc0></d_trigger_npc0></vx_npc0></li>
-<li>Then Ego reaches the destination without collisions</li>
-<li>And Ego does not decelerate at a rate below <amin_ego></amin_ego></li>
+<li>And Npc0 is positioned ahead of ego, in the same lane</li>
+<li>And Npc0 is driving at a speed <vxi_npc0>, slower than ego</vxi_npc0></li>
+<li>And Npc1 is positioned <dxi_npc0_npc1> ahead of Npc0, in the same lane</dxi_npc0_npc1></li>
+<li>And Npc1 is driving at the same speed as Npc0, <vxi_npc0></vxi_npc0></li>
 </ul>
-<p><img alt="Overview" src="../images/UC-NTR-001-0009.drawio.svg"></p>
-<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h3>
+<ul>
+<li>When Ego approaches Npc0 longitudinally, to within <dx_ego_npc0></dx_ego_npc0></li>
+<li>And later Npc0 cuts out from the ego lane to the left, within a timespan of <time_cut_in_npc0></time_cut_in_npc0></li>
+<li>And Npc1 decelerates down to <vx_npc1> at a rate of <ax_npc1></ax_npc1></vx_npc1></li>
+<li>Then Ego starts decelerating to match the speed of Npc1, <vx_npc1></vx_npc1></li>
+<li>And Ego drives continuously at all times</li>
+<li>And Ego keeps its deceleration rate slower than <axmin_ego> at all times</axmin_ego></li>
+<li>And Ego drives safely with no collisions at all times</li>
+</ul>
+<p><img alt="Overview" src="./images/UC-NTR-001-0001.drawio.svg"></p>
+<h3 id="examples">Examples:<a class="headerlink" href="#examples" title="Permanent link">#</a></h3>
 <table>
 <thead>
 <tr>
-<th>vx_npc0</th>
 <th>vxi_ego</th>
-<th>d_trigger_npc0</th>
-<th>w</th>
-<th>amin_ego</th>
+<th>vxi_npc0</th>
+<th>dxi_npc0_npc1</th>
+<th>dx_ego_npc0</th>
+<th>vx_npc1</th>
+<th>ax_npc1</th>
+<th>time_cut_in_npc0</th>
+<th>axmin_ego</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>8 km/h</td>
+<td>20 km/h</td>
 <td>15 km/h</td>
-<td>7.0 m</td>
-<td>3.0 m</td>
-<td>-2.499 m/s^2</td>
+<td>15 m</td>
+<td>15 m</td>
+<td>5 km/h</td>
+<td>-1 m/s^2</td>
+<td>4 s</td>
+<td>-1.5 m/s^2</td>
+</tr>
+<tr>
+<td>30 km/h</td>
+<td>20 km/h</td>
+<td>15 m</td>
+<td>15 m</td>
+<td>10 km/h</td>
+<td>-1 m/s^2</td>
+<td>4 s</td>
+<td>-1.5 m/s^2</td>
+</tr>
+<tr>
+<td>40 km/h</td>
+<td>25 km/h</td>
+<td>15 m</td>
+<td>15 m</td>
+<td>15 km/h</td>
+<td>-1 m/s^2</td>
+<td>4 s</td>
+<td>-1.5 m/s^2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-right">Scenario Outline: Maintain safe distance from hidden vehicle slowing down when preceding vehicle cuts out to the right<a class="headerlink" href="#scenario-outline-maintain-safe-distance-from-hidden-vehicle-slowing-down-when-preceding-vehicle-cuts-out-to-the-right" title="Permanent link">#</a></h2>
+<p>Confirm that ego is able to adjust its speed such as to maintain a safe distance from a decelerating vehicle that is initially hidden by a preceding vehicle, when the preceding vehicle cuts out from ego lane to the right.</p>
+<ul>
+<li>Given Ego is driving at <vxi_ego></vxi_ego></li>
+<li>And Npc0 is positioned ahead of ego, in the same lane</li>
+<li>And Npc0 is driving at a speed <vxi_npc0>, slower than ego</vxi_npc0></li>
+<li>And Npc1 is positioned <dxi_npc0_npc1> ahead of Npc0, in the same lane</dxi_npc0_npc1></li>
+<li>And Npc1 is driving at the same speed as Npc0, <vxi_npc0></vxi_npc0></li>
+</ul>
+<ul>
+<li>When Ego approaches Npc0 longitudinally, to within <dx_ego_npc0></dx_ego_npc0></li>
+<li>And later Npc0 cuts out from the ego lane to the right, within a timespan of <time_cut_in_npc0></time_cut_in_npc0></li>
+<li>And Npc1 decelerates down to <vx_npc1> at a rate of <ax_npc1></ax_npc1></vx_npc1></li>
+<li>Then Ego starts decelerating to match the speed of Npc1, <vx_npc1></vx_npc1></li>
+<li>And Ego drives continuously at all times</li>
+<li>And Ego keeps its deceleration rate slower than <axmin_ego> at all times</axmin_ego></li>
+<li>And Ego drives safely with no collisions at all times</li>
+</ul>
+<p><img alt="Overview" src="./images/UC-NTR-001-0001.drawio.svg"></p>
+<h3 id="examples_1">Examples:<a class="headerlink" href="#examples_1" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>vxi_ego</th>
+<th>vxi_npc0</th>
+<th>dxi_npc0_npc1</th>
+<th>dx_ego_npc0</th>
+<th>vx_npc1</th>
+<th>ax_npc1</th>
+<th>time_cut_in_npc0</th>
+<th>axmin_ego</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20 km/h</td>
+<td>15 km/h</td>
+<td>15 m</td>
+<td>15 m</td>
+<td>5 km/h</td>
+<td>-1 m/s^2</td>
+<td>4 s</td>
+<td>-1.5 m/s^2</td>
+</tr>
+<tr>
+<td>30 km/h</td>
+<td>20 km/h</td>
+<td>15 m</td>
+<td>15 m</td>
+<td>10 km/h</td>
+<td>-1 m/s^2</td>
+<td>4 s</td>
+<td>-1.5 m/s^2</td>
+</tr>
+<tr>
+<td>40 km/h</td>
+<td>25 km/h</td>
+<td>15 m</td>
+<td>15 m</td>
+<td>15 km/h</td>
+<td>-1 m/s^2</td>
+<td>4 s</td>
+<td>-1.5 m/s^2</td>
 </tr>
 </tbody>
 </table></div>
@@ -1347,7 +1496,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../UC-NTR-001-0008.feature/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Feature: Handle cut-in from a faster vehicle that then slows down">
+          <a href="../UC-PLN-001-0004.feature/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Feature: Maintain safe distance from cutting-in motorcycle">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1357,20 +1506,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Feature: Handle cut-in from a faster vehicle that then slows down
+                Feature: Maintain safe distance from cutting-in motorcycle
               </div>
             </div>
           </a>
         
         
           
-          <a href="../pov/" class="md-footer__link md-footer__link--next" aria-label="Next: Scenario Naming Pattern">
+          <a href="../UC-PLN-001-0006.feature/" class="md-footer__link md-footer__link--next" aria-label="Next: Feature: Maintain safe distance from hidden motorcycle slowing down">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Scenario Naming Pattern
+                Feature: Maintain safe distance from hidden motorcycle slowing down
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1410,12 +1559,12 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../../docs/assets/js/mathjax.js"></script>
+        <script src="../../../docs/assets/js/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
