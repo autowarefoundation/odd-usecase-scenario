@@ -1,5 +1,5 @@
 IMPORT:
-  - ../Domain_Concapts_Definition_ISO_34503.yaml
+  - ../ODD_Taxonomy_Extended.yaml
 
 ODD:
   pov_vision_pilot_main_module:
@@ -9,7 +9,6 @@ ODD:
       module_l3_lane_keeping: true
       module_l3_adaptive_cruise_control: true
       module_l3_emergency_braking: true
-
 
 MODULES:
   module_l3_lane_keeping:
