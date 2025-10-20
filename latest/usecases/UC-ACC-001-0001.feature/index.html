@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-NTR-001-0003.feature/">
+        <link rel="canonical" href="https://autowarefoundation.github.io/odd-usecase-scenario/latest/usecases/UC-ACC-001-0001.feature/">
       
       
-        <link rel="prev" href="../UC-NTR-001-0002.feature/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../UC-NTR-001-0004.feature/">
+        <link rel="next" href="../UC-AEB-001-0001.feature/">
       
       
       <link rel="icon" href="../../docs/assets/images/autoware-foundation.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Feature: Wait for an overtake from same direction lane while stationary - ODD Usecase Scenario</title>
+        <title>Feature: Longitudinal velocity control - ODD Usecase Scenario</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#feature-wait-for-an-overtake-from-same-direction-lane-while-stationary" class="md-skip">
+        <a href="#feature-longitudinal-velocity-control" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Feature: Wait for an overtake from same direction lane while stationary
+              Feature: Longitudinal velocity control
             
           </span>
         </div>
@@ -590,10 +590,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../UC-ACC-001-0001.feature/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Feature: Longitudinal velocity control
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -604,6 +626,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-outline-preceding-vehicle-partial-deceleration-on-flat-straight-road" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario Outline: Preceding vehicle partial deceleration on flat, straight road
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scenario Outline: Preceding vehicle partial deceleration on flat, straight road">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -682,32 +748,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Feature: Wait for an overtake from same direction lane while stationary
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../UC-NTR-001-0003.feature/" class="md-nav__link">
         
   
   
@@ -718,59 +762,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#scenario-outline-overtake-from-left-or-right-side" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scenario Outline: Overtake from left or right side
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scenario Outline: Overtake from left or right side">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#examples-npc-overtakes-through-left-lane" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples: Npc overtakes through left lane
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#examples-right-side-overtake" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples: Right side overtake
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -948,28 +939,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#scenario-outline-overtake-from-left-or-right-side" class="md-nav__link">
+  <a href="#scenario-outline-preceding-vehicle-partial-deceleration-on-flat-straight-road" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario Outline: Overtake from left or right side
+      Scenario Outline: Preceding vehicle partial deceleration on flat, straight road
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Scenario Outline: Overtake from left or right side">
+    <nav class="md-nav" aria-label="Scenario Outline: Preceding vehicle partial deceleration on flat, straight road">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#examples-npc-overtakes-through-left-lane" class="md-nav__link">
+  <a href="#examples" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples: Npc overtakes through left lane
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#examples-right-side-overtake" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples: Right side overtake
+      Examples
     </span>
   </a>
   
@@ -999,99 +981,61 @@
   
 
 
-<div><h1 id="feature-wait-for-an-overtake-from-same-direction-lane-while-stationary">Feature: Wait for an overtake from same direction lane while stationary<a class="headerlink" href="#feature-wait-for-an-overtake-from-same-direction-lane-while-stationary" title="Permanent link">#</a></h1>
-<p>Ensures the vehicle's safety when another car overtakes it at high speed while stationary.
-The vehicle waits until the high-speed overtake maneuver is complete before departing.</p>
-<h2 id="scenario-outline-overtake-from-left-or-right-side">Scenario Outline: Overtake from left or right side<a class="headerlink" href="#scenario-outline-overtake-from-left-or-right-side" title="Permanent link">#</a></h2>
-<p>Confirm that the vehicle waits for a high-speed overtake in the same direction lane to complete before departing.</p>
+<div><h1 id="feature-longitudinal-velocity-control">Feature: Longitudinal velocity control<a class="headerlink" href="#feature-longitudinal-velocity-control" title="Permanent link">#</a></h1>
+<p>This feature ensures that the ADS is able to adjust its speed such as to keep a safe longitudinal distance from preceding moving vehicles.</p>
+<h2 id="scenario-outline-preceding-vehicle-partial-deceleration-on-flat-straight-road">Scenario Outline: Preceding vehicle partial deceleration on flat, straight road<a class="headerlink" href="#scenario-outline-preceding-vehicle-partial-deceleration-on-flat-straight-road" title="Permanent link">#</a></h2>
+<p>Confirm that the ADS is capable of keeping a safe distance from a preceding vehicle that decelerates partially.</p>
 <ul>
-<li>Given Ego is in standstill</li>
-<li>And Npc0 is positioned behind Ego, in the same driving lane</li>
-<li>And Npc0 is driving at <vxi_npc0> towards Ego</vxi_npc0></li>
-<li>When Npc0 reaches a position at distance <dr> behind Ego</dr></li>
-<li>And Npc0 starts overtaking Ego by using the same direction lane</li>
-<li>Then Ego remains standstill</li>
-<li>When Npc0 reaches position <df> ahead of Ego</df></li>
-<li>And Npc0 finishes the overtake maneuver</li>
-<li>Then Ego starts driving</li>
-<li>And Ego reaches the destination without collision</li>
-<li>And Ego does not decelerate at a rate below <amin_ego> during driving</amin_ego></li>
+<li>Given Ego drives at <vxi_ego>, centered on its lane</vxi_ego></li>
+<li>And Npc0 drives on the same lane as Ego, 30 meters ahead of it</li>
+<li>And Npc0 drives slower than Ego, at a speed of <vxi_npc0></vxi_npc0></li>
 </ul>
-<p><img alt="Overview" src="../images/UC-NTR-001-0003.drawio.svg"></p>
-<h3 id="examples-npc-overtakes-through-left-lane">Examples: Npc overtakes through left lane<a class="headerlink" href="#examples-npc-overtakes-through-left-lane" title="Permanent link">#</a></h3>
+<ul>
+<li>When Ego gets close to Npc0</li>
+<li>Then Ego starts decelerating</li>
+<li>And Ego matches Npc0's longitudinal speed</li>
+</ul>
+<ul>
+<li>When Npc0 starts decelerating to <vx_target_npc0> with a rate of <ax_npc0></ax_npc0></vx_target_npc0></li>
+<li>Then Ego starts decelerating further</li>
+<li>And Ego matches Npc0's longitudinal speed</li>
+<li>And Ego reaches the goal position</li>
+<li>And Ego drives continuously (no full stops) at all times</li>
+<li>And Ego drives with no collisions at all times</li>
+<li>And Ego keeps its acceleration above <amin_ego> at all times</amin_ego></li>
+</ul>
+<p><img alt="Description" src="../images/UC-ACC-001-0001.drawio.svg"></p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h3>
 <table>
 <thead>
 <tr>
+<th>vxi_ego</th>
 <th>vxi_npc0</th>
-<th>dr</th>
-<th>df</th>
-<th>overtake_offset</th>
-<th>w</th>
+<th>vx_target_npc0</th>
+<th>ax_npc0</th>
 <th>amin_ego</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>20 km/h</td>
-<td>7.0 m</td>
-<td>5.0 m</td>
-<td>2.5 m</td>
-<td>3.0 m</td>
+<td>10 km/h</td>
+<td>5 km/h</td>
+<td>-1.5 m/s^2</td>
 <td>-1.5 m/s^2</td>
 </tr>
 <tr>
 <td>30 km/h</td>
-<td>7.0 m</td>
-<td>5.0 m</td>
-<td>2.5 m</td>
-<td>3.0 m</td>
+<td>15 km/h</td>
+<td>7 km/h</td>
+<td>-1.5 m/s^2</td>
 <td>-1.5 m/s^2</td>
 </tr>
 <tr>
-<td>40 km/h</td>
-<td>7.0 m</td>
-<td>5.0 m</td>
-<td>2.5 m</td>
-<td>3.0 m</td>
-<td>-1.5 m/s^2</td>
-</tr>
-</tbody>
-</table>
-<h3 id="examples-right-side-overtake">Examples: Right side overtake<a class="headerlink" href="#examples-right-side-overtake" title="Permanent link">#</a></h3>
-<table>
-<thead>
-<tr>
-<th>vxi_npc0</th>
-<th>dr</th>
-<th>df</th>
-<th>overtake_offset</th>
-<th>w</th>
-<th>amin_ego</th>
-</tr>
-</thead>
-<tbody>
-<tr>
+<td>35 km/h</td>
 <td>20 km/h</td>
-<td>7.0 m</td>
-<td>5.0 m</td>
-<td>-2.5 m</td>
-<td>3.0 m</td>
+<td>10 km/h</td>
 <td>-1.5 m/s^2</td>
-</tr>
-<tr>
-<td>30 km/h</td>
-<td>7.0 m</td>
-<td>5.0 m</td>
-<td>-2.5 m</td>
-<td>3.0 m</td>
-<td>-1.5 m/s^2</td>
-</tr>
-<tr>
-<td>40 km/h</td>
-<td>7.0 m</td>
-<td>5.0 m</td>
-<td>-2.5 m</td>
-<td>3.0 m</td>
 <td>-1.5 m/s^2</td>
 </tr>
 </tbody>
@@ -1131,7 +1075,7 @@ The vehicle waits until the high-speed overtake maneuver is complete before depa
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../UC-NTR-001-0002.feature/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Feature: Depart while being overtaken">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Use Cases">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1141,20 +1085,20 @@ The vehicle waits until the high-speed overtake maneuver is complete before depa
                 Previous
               </span>
               <div class="md-ellipsis">
-                Feature: Depart while being overtaken
+                Use Cases
               </div>
             </div>
           </a>
         
         
           
-          <a href="../UC-NTR-001-0004.feature/" class="md-footer__link md-footer__link--next" aria-label="Next: Feature: Depart while being overtaken from same direction lane">
+          <a href="../UC-AEB-001-0001.feature/" class="md-footer__link md-footer__link--next" aria-label="Next: Feature: Automatic emergency brake trigger against preceding standstill obstacle">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Feature: Depart while being overtaken from same direction lane
+                Feature: Automatic emergency brake trigger against preceding standstill obstacle
               </div>
             </div>
             <div class="md-footer__button md-icon">
