@@ -21,3 +21,6 @@ The following table provides the traceability between the use cases and their im
 | UC-NTR-001-0007 | Handle cut-in from a faster vehicle | [case](https://evaluation.tier4.jp/evaluation/scenarios/83ef39b2-c573-485f-bb17-bd595f626d24?project_id=awf) |
 | UC-NTR-001-0008 | Handle cut-in from a faster vehicle that then slows down | [case](<https://evaluation.tier4.jp/evaluation/scenarios/cc6b1c53-61bd-444a-bced-10231d0cdbe7?project_id=awf>) |
 | UC-NTR-001-0009 | Handle cut-in from vehicle starting from roadside| [case](https://evaluation.tier4.jp/evaluation/scenarios/24d11ead-d78e-4748-8dc6-20d5486e8314?project_id=awf) |
+| UC-NTR-003-0001 | Handle cut-in from oncoming vehicle at intersection | [case](https://evaluation.tier4.jp/evaluation/scenarios/037f2b6b-0586-4d1c-9d4e-c43aee394a99?project_id=awf) |
+| UC-NTR-003-0002 | Handle oncoming vehicle while turning right at intersection | [case](https://evaluation.tier4.jp/evaluation/scenarios/1ac5d90e-aafa-420e-8aff-692a9cc3e039?project_id=awf) |
+| UC-NTR-003-0003 | Decide to stop or pass for slow oncoming vehicle at intersection | [case](https://evaluation.tier4.jp/evaluation/scenarios/80bf640c-702d-4c36-bc7d-f12a41f892bf?project_id=awf) |
