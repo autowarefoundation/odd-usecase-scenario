@@ -1,27 +1,46 @@
 IMPORT:
   - ./Domain_Concepts_Definition_ISO_34503.yaml
-  - ./Units.yaml
+  # - ./Units.yaml
 
 TAXONOMY: 
-  drivable_area:
-    drivable_area_geometry:
-      horizontal_plane:
-        curvature: float curvature
-      transverse_plane:
-        bank_angle: float angle
-      longitudinal_plane:
-        inclination_angle: float angle
-    drivable_area_lane_specification:
-      lane_dimensions:
-        narrow:   # <= 3 meters
-          lane_width: "<= 3 m"
-        medium: # 3 - 5 meters
-          lane_width: "[3 .. 5] m"
-        wide: # >= 5 meters
-          lane_width: ">= 5 m"
-      lane_width: float length # 
-  traffic_agents:
-    traffic_flow:
-      density_of_agents: float agent_density
-      volume_of_traffic: float agent_flow_rate
-      flow_rate: float agent_flow_rate
+  scenery_elements:
+    zone:
+      zone_type:
+        fixed_zone:
+          - campus
+    drivable_area:
+      drivable_area_type:
+        - sidewalk
+        - docking_area
+        - recharging_area
+      drivable_area_geometry:
+        horizontal_plane:
+          curvature: float curvature
+        transverse_plane:
+          bank_angle: float angle
+        longitudinal_plane:
+          inclination_angle: float angle
+      drivable_area_lane_specification:
+        lane_type:
+          - pedestrian_lane 
+        lane_dimensions:
+          narrow:   # <= 3 meters
+            lane_width: "<= 3 m"
+          medium: # 3 - 5 meters
+            lane_width: "[3 .. 5] m"
+          wide: # >= 5 meters
+            lane_width: ">= 5 m"
+        lane_width: float length
+        number_of_lanes: integer count
+  dynamic_elements:
+    traffic_agents:
+      agent_type:
+        - bicycles
+        - pedestrians
+        - skateboards
+        - scooters
+        - wheelchairs
+      traffic_flow:
+        density_of_agents: float agent_density
+        volume_of_traffic: float agent_flow_rate
+        flow_rate: float agent_flow_rate

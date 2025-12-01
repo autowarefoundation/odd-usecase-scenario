@@ -1,7 +1,6 @@
 TAXONOMY:
 
   scenery_elements:
-
     zone:
       geofenced_areas: shapefile
       zone_type:
@@ -32,7 +31,7 @@ TAXONOMY:
         - minor_or_local_roads # provide access to residential areas and other local developments
         - slip_roads_or_off-ramps # used to drive on to and off a motorway or highways or interstates
         - parking_space # physical space where one vehicle is parked
-        - shared_space #  may be shared between subject vehicle and other actors
+        - shared_space #  may be shared between subject vehicle and other actors (non-vehicle included)
       drivable_area_type_classification:
         - with_active_traffic_management
         - without_active_traffic_management
@@ -40,11 +39,11 @@ TAXONOMY:
         horizontal_plane:
           - straight_lines
           - curves
-        transverse_plane:
+        transverse_plane: # cross-section of the road 
           transverse_plane_type:
-            - divided
-            - undivided
-            - pavements
+            - divided # traffic in both directions can happen in the same road
+            - undivided # traffic in opposite directions is separated into different roads
+            - pavements # no particular specification regarding the opposite traffic separation or lack thereof
           barriers_on_road_edges:
             - any_barriers_on_road_edges # newly added to avoid empty categoricals
           types_of_lanes_together:
@@ -57,7 +56,8 @@ TAXONOMY:
           - level_plane
       drivable_area_lane_specification:
         lane_dimensions:
-          - any_lane_dimension # newly added to avoid empty categoricals
+          any_lane_dimension:
+            lane_width: ">= 0 m"
         lane_marking:
           - clear_lane_marking
           - blurred_lane_marking
@@ -77,9 +77,9 @@ TAXONOMY:
         speed_limit: integer velocity
       drivable_area_signs:
         sign_types:
-          - regulatory_signs # e.g. traffic lights
-          - warning_signs
-          - information_signs
+          - regulatory_signs # Used to enforce traffic laws. e.g. traffic lights
+          - warning_signs # Advisory signs, warning drivers of hazardous situations or conditions
+          - information_signs # Diretcions and informations about services
         sign_features:
           - movable_signs
           - fixed_signs
@@ -130,18 +130,18 @@ TAXONOMY:
       roundabout_diameter: integer length # newly added for value ranges
       double: boolean # two roundabouts which are separated by a short link
       roundabout_classification:
-        - signalized_roundabout
+        - signalized_roundabout # with traffic lights
         - non-signalized_roundabout_with_yielding_traffic
         - non-signalized_roundabout_without_yielding_traffic
       intersection:
-        - t-junction
-        - y-junction
-        - cross_road
-        - staggered
-        - grade_separated
+        - t-junction # 3-pronged junctions with straight section
+        - y-junction # 3-pronged junctions without straight section
+        - cross_road # 4-pronged junctions where all prongs converge to one point
+        - staggered # 4-pronged junctions where the prongs do not converte to one point
+        - grade_separated # interchanges
       intersection_classification:
-        - signalized_intersection
-        - non-signalized_intersection
+        - signalized_intersection # with traffic lights
+        - non-signalized_intersection # without traffic lights
 
     basic_road_structures:
       - building

@@ -1,0 +1,86 @@
+IMPORT:
+  - ../ODD_Taxonomy_Extended.yaml
+
+ODD:
+  pov_vision_pilot_main_module:
+    TITLE: ODD for Vision Pilot
+    DESCRIPTION: This module defines the ODD for the Vision Pilot product of the PoV Working Group.
+    INCLUDE_AND:
+      module_l3_highway_driving_planning: true
+    EXCLUDE_OR:
+      poor_sensing_conditions: true
+      poor_control_conditions: true
+
+MODULES:
+  module_l3_highway_driving_planning:
+    TITLE: ODD of the L3 Lane Keeping behavior
+    INCLUDE_AND:
+      horizontal_plane:
+        - straight_lines
+        - curves
+      curvature: "[00 .. 00] 1/m"
+      transverse_plane_type:
+        - divided
+        - undivided
+        - pavements
+      bank_angle: "[00 .. 00] deg"
+      superelevation_banking:
+        - any_superelevation_banking # newly added to avoid empty categoricals
+      longitudinal_plane:
+        - up-slope # positive gradient
+        - down-slope # negative-gradient
+        - level_plane
+      inclination_angle: "[00 .. 00] deg"
+      lane_dimensions:
+        - any_lane_dimension # newly added to avoid empty categoricals
+      lane_marking:
+        - clear_lane_marking
+        - blurred_lane_marking
+        - no_lane_marking
+        - temporary_lane_marking
+      drivable_area_edge:
+        - line_markers
+        - snowbanks
+        - solid_barriers # e.g. grating, rails, curb, cones
+        - temporary_line_marker
+        - none
+      drivable_area_surface_type:
+        - asphalt
+        - cement_concrete
+      damages:
+        - cracks
+        - potholes
+        - ruts
+        - swells
+    EXCLUDE_OR:
+      unhandled_objects: true
+
+  module_poor_camera_sensing:
+    TITLE: Conditions that negatively affect the camera sensor's sensing capabilities
+    LABEL: poor_sensing_conditions
+    INCLUDE_OR: 
+      rainfall_rate: "> xx mm/h"
+      snowfall_visibility: "<= xx m"
+      illuminance: "<= xx lux"
+
+  module_poor_vehicle_control:
+    TITLE: Conditions that negatively affect the vehicle's control capabilities
+    LABEL: poor_control_conditions
+    INCLUDE_OR:
+      wind_speed: ">= xx m/s"
+      drivable_area_included_surface_condition:
+        - icy
+        - flooded
+        - standing_water
+        - snow_on_surface
+        - wet
+        - surface_contamination
+
+  module_unhandled_objects:
+    TITLE: Objects that cannot be handled by the Vision Pilot stack
+    LABEL: unhandled_objects
+    INCLUDE_OR:
+      presence_of_special_vehicles:
+        - ambulances
+        - police_vehicles
+        - work_vehicles

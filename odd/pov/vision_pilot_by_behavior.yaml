@@ -88,6 +88,7 @@ MODULES:
       bad_visibility: true
 
   module_low_lighting:
+    TITLE: ODD conditions of low lighting
     LABEL: bad_visibility
     INCLUDE_OR:
       illuminance: "<= x lux"
