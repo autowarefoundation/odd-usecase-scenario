@@ -7,7 +7,7 @@
     "patterns": [
         {
             "name": "gherkin_parameter_abbreviations",
-            "pattern": "/<(s|v|a|j|d|vrel)(x|y|e)?(i|min|max)?>/g"
+            "pattern": "/(s|v|a|j|d|vrel)(x|y|e)?(i|min|max)?/g"
         }
     ],
 
