@@ -1,0 +1,575 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" style="background: transparent; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="801px" height="521px" viewBox="-0.5 -0.5 801 521" content="&lt;mxfile pages=&quot;4&quot;&gt;&lt;diagram id=&quot;w5Oo-BWtHuJrQC2m2nxu&quot; name=&quot;UC-NTR-001-0001&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <g>
+            <path d="M 350 251 L 430 251 L 430 230 L 450 260 L 430 290 L 430 269 L 350 269 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,400,260)" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g/>
+        <g>
+            <path d="M 100 99.8 L 700 99.8" fill="none" stroke="#333333" stroke-width="200" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));"/>
+        </g>
+        <g>
+            <path d="M 100 99.8 L 700 99.8" fill="none" stroke="#999999" stroke-width="150" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(153, 153, 153), rgb(106, 106, 106));"/>
+        </g>
+        <g>
+            <path d="M 700 99.8 L 100 99.8" fill="none" stroke="#666666" stroke-width="120" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(102, 102, 102), rgb(149, 149, 149));"/>
+        </g>
+        <g>
+            <rect x="103.34" y="107.26" width="70" height="40" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 127px; margin-left: 138px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                    <div>
+                                        <font style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                            Motorbike0
+                                        </font>
+                                    </div>
+                                    <font color="#ffffff" style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                        vxi_motorbike0
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="138" y="131" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">
+                        Motorbike0vxi_motorbike0
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 700 100 L 100 100" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke" style="stroke: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+        </g>
+        <g>
+            <path d="M 700 160 L 100 160" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+        </g>
+        <g>
+            <path d="M 700 40 L 100 40" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+        </g>
+        <g>
+            <path d="M 113.75 100.51 Q 160 100 235 100 Q 310 100 340 98.5 Q 370 97 396.5 88 Q 423 79 451.5 74.5 Q 480 70 520 70.13 Q 560 70.25 590 69.75" fill="none" stroke="#99ff99" stroke-opacity="0.8" stroke-width="20" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(153, 255, 153), rgb(0, 68, 0));"/>
+        </g>
+        <g>
+            <path d="M 153.67 100.22 L 191.3 100.22" fill="none" stroke="#cc6600" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 102, 0), rgb(212, 125, 37));"/>
+            <path d="M 196.55 100.22 L 189.55 103.72 L 191.3 100.22 L 189.55 96.72 Z" fill="#cc6600" stroke="#cc6600" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(204, 102, 0), rgb(212, 125, 37)); stroke: light-dark(rgb(204, 102, 0), rgb(212, 125, 37));"/>
+        </g>
+        <g>
+            <path d="M 250 69.76 L 283.63 69.96" fill="none" stroke="#0000cc" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 204), rgb(212, 212, 255));"/>
+            <path d="M 288.88 69.99 L 281.86 73.45 L 283.63 69.96 L 281.9 66.45 Z" fill="#0000cc" stroke="#0000cc" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 204), rgb(212, 212, 255)); stroke: light-dark(rgb(0, 0, 204), rgb(212, 212, 255));"/>
+        </g>
+        <g>
+            <rect x="110" y="50.01" width="60" height="40" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-end; width: 1px; height: 1px; padding-top: 70px; margin-left: 168px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: right; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                    <font style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                        Ego
+                                    </font>
+                                    <div>
+                                        <font style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                            vxi_ego
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="168" y="74" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="end">
+                        Ego...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="170" y="50" width="80" height="40" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <rect x="183" y="55" width="50" height="30" fill="#1ba1e2" stroke="none" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 163 75 L 165.01 65 L 190.99 65 L 193 75 Z" fill="#1ba1e2" stroke="none" transform="rotate(-90,178,70)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <rect x="180" y="57" width="50" height="26" fill="#ccffff" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 255, 255), rgb(0, 37, 37));"/>
+        </g>
+        <g>
+            <path d="M 220 55 C 220 60.5 226.72 64.97 235 64.97 C 243.28 64.97 250 60.5 250 55 L 250 75.03 C 250 77.68 248.42 80.21 245.61 82.08 C 242.79 83.95 238.98 85 235 85 C 231.02 85 227.21 83.95 224.39 82.08 C 221.58 80.21 220 77.68 220 75.03 Z" fill="#1ba1e2" stroke="none" transform="rotate(-90,235,70)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 197 60 C 197 61 201.48 61.81 207 61.81 C 212.52 61.81 217 61 217 60 L 217 78.19 C 217 79.19 212.52 80 207 80 C 201.48 80 197 79.19 197 78.19 Z" fill="#1ba1e2" stroke="none" transform="rotate(-90,207,70)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 192 60 C 192 61 196.48 61.81 202 61.81 C 207.52 61.81 212 61 212 60 L 212 78.19 C 212 79.19 207.52 80 202 80 C 196.48 80 192 79.19 192 78.19 Z" fill="#1ba1e2" stroke="none" transform="rotate(90,202,70)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 172.99 57 L 184 57 Q 178.01 70 184 83 L 172.99 83 Q 167.01 70 172.99 57 Z" fill="#1ba1e2" stroke="none" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 242 60 C 242 60.55 243.79 61 246 61 C 248.21 61 250 60.55 250 60 Z" fill="#ffffcc" stroke="none" transform="rotate(-125,246,60.5)" pointer-events="all" style="fill: light-dark(rgb(255, 255, 204), rgb(24, 24, 0));"/>
+        </g>
+        <g>
+            <path d="M 242 79 C 242 79.55 243.79 80 246 80 C 248.21 80 250 79.55 250 79 Z" fill="#ffffcc" stroke="none" transform="translate(0,79.5)scale(1,-1)translate(0,-79.5)rotate(-125,246,79.5)" pointer-events="all" style="fill: light-dark(rgb(255, 255, 204), rgb(24, 24, 0));"/>
+        </g>
+        <g>
+            <rect x="223" y="52" width="2" height="5" rx="0.82" ry="0.82" fill="#1ba1e2" stroke="none" transform="rotate(330,224,54.5)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <rect x="223" y="83" width="2" height="5" rx="0.82" ry="0.82" fill="#1ba1e2" stroke="none" transform="rotate(30,224,85.5)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 170 60 C 170 60.55 171.57 61 173.5 61 C 175.43 61 177 60.55 177 60 Z" fill="#660000" stroke="none" transform="rotate(115,173.5,60.5)" pointer-events="all" style="fill: light-dark(rgb(102, 0, 0), rgb(255, 200, 200));"/>
+        </g>
+        <g>
+            <path d="M 170 79 C 170 79.55 171.57 80 173.5 80 C 175.43 80 177 79.55 177 79 Z" fill="#660000" stroke="none" transform="translate(0,79.5)scale(1,-1)translate(0,-79.5)rotate(-245,173.5,79.5)" pointer-events="all" style="fill: light-dark(rgb(102, 0, 0), rgb(255, 200, 200));"/>
+        </g>
+        <g>
+            <rect x="172" y="62" width="6" height="16" fill="#1ba1e2" stroke="none" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 182 58 Q 203.6 64.17 229 58" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 181.5 82 Q 203.1 75.83 228.5 82" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 182 58 Q 196.01 55 230 58" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 181 82 Q 195.01 85 229 82" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 196 60 L 198 56" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 206 61 L 209 57" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 206 61 L 208 56" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 196 80 L 198 84" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 206 79 L 209 83" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 206 79 L 208 84" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g/>
+        <g>
+            <rect x="133" y="85" width="40" height="30" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <rect x="143.9" y="99.71" width="5.33" height="1.5" fill="#cccccc" stroke="none" transform="rotate(90,146.56,100.46)" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="144.23" y="95.49" width="1.33" height="4.05" rx="0.65" ry="0.65" fill="#000000" stroke="none" transform="rotate(90,144.9,97.51)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="144.23" y="101.44" width="1.33" height="4.05" rx="0.65" ry="0.65" fill="#000000" stroke="none" transform="rotate(90,144.9,103.47)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <path d="M 140.56 103.46 L 142.56 103.46 Q 144.56 103.46 142.56 103.46 L 140.56 103.46" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="148" y="99.27" width="5" height="1.41" rx="0.7" ry="0.7" fill="#4d4d4d" stroke="none" transform="rotate(90,150.5,99.97)" pointer-events="all" style="fill: light-dark(rgb(77, 77, 77), rgb(171, 171, 171));"/>
+        </g>
+        <g>
+            <path d="M 140.56 97.5 L 142.56 97.5 Q 144.56 97.5 142.56 97.5 L 140.56 97.5" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="138.67" y="99.38" width="8" height="2.11" rx="1.06" ry="1.06" fill="#4d4d4d" stroke="none" transform="rotate(-90,142.67,100.44)" pointer-events="all" style="fill: light-dark(rgb(77, 77, 77), rgb(171, 171, 171));"/>
+        </g>
+        <g>
+            <path d="M 123.49 105.92 L 125.67 103.51" fill="none" stroke="#4d4d4d" stroke-width="0.4" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(77, 77, 77), rgb(171, 171, 171));"/>
+        </g>
+        <g>
+            <rect x="117.67" y="96.76" width="5.33" height="1.5" rx="0.35" ry="0.35" fill="#cccccc" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="117.67" y="102.71" width="5.33" height="1.5" rx="0.45" ry="0.45" fill="#cccccc" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <ellipse cx="133" cy="104.26" rx="2" ry="3.75" fill="#333333" stroke="none" transform="rotate(105,133,104.26)" pointer-events="all" style="fill: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));"/>
+        </g>
+        <g>
+            <rect x="131.67" y="94.51" width="5.33" height="12" rx="1.76" ry="1.76" fill="#ffb366" stroke="none" transform="rotate(90,134.33,100.51)" pointer-events="all" style="fill: light-dark(rgb(255, 179, 102), rgb(130, 65, 0));"/>
+        </g>
+        <g>
+            <rect x="145.23" y="93.71" width="2.67" height="13.5" rx="0.93" ry="0.93" fill="#000000" stroke="none" transform="rotate(90,146.56,100.46)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="120.67" y="92.26" width="2.67" height="16.5" rx="0.96" ry="0.96" fill="#000000" stroke="none" transform="rotate(90,122,100.51)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="119" y="94.51" width="4" height="12" rx="1.16" ry="1.16" fill="#ffb366" stroke="none" transform="rotate(90,121,100.51)" pointer-events="all" style="fill: light-dark(rgb(255, 179, 102), rgb(130, 65, 0));"/>
+        </g>
+        <g>
+            <rect x="145.67" y="95.26" width="2.67" height="10.5" rx="1.33" ry="1.33" fill="#ffb366" stroke="none" transform="rotate(90,147,100.51)" pointer-events="all" style="fill: light-dark(rgb(255, 179, 102), rgb(130, 65, 0));"/>
+        </g>
+        <g>
+            <rect x="124.34" y="94.51" width="5.33" height="12" rx="1.76" ry="1.76" fill="#000000" stroke="none" transform="rotate(90,127,100.51)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <ellipse cx="133" cy="96.76" rx="2" ry="3.75" fill="#333333" stroke="none" transform="rotate(75,133,96.76)" pointer-events="all" style="fill: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));"/>
+        </g>
+        <g>
+            <rect x="124.67" y="97.76" width="10.65" height="6" rx="3" ry="3" fill="#8f0000" stroke="none" transform="rotate(90,130,100.76)" pointer-events="all" style="fill: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <ellipse cx="138.34" cy="100.43" rx="0.6666666666666666" ry="0.6666666666666666" fill="#cccccc" stroke="none" transform="rotate(90,138.34,100.43)" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 123 103.77 L 124.88 97.96 L 133.46 97.96 L 135.34 103.77 Z" fill="#8f0000" stroke="none" transform="rotate(-90,129.17,100.86)" pointer-events="all" style="fill: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <rect x="123.67" y="97.85" width="9" height="6" rx="3" ry="3" fill="#8f0000" stroke="none" transform="rotate(90,128.17,100.85)" pointer-events="all" style="fill: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <rect x="129.67" y="97.11" width="7.03" height="6.71" rx="3.08" ry="3.08" fill="#404040" stroke="none" transform="rotate(180,133.18,100.46)" pointer-events="all" style="fill: light-dark(rgb(64, 64, 64), rgb(182, 182, 182));"/>
+        </g>
+        <g>
+            <path d="M 133.67 97.51 Q 136.34 97.51 136.34 100.51 Q 136.34 103.51 133.67 103.51 Q 135 100.51 133.67 97.51 Z" fill="#ccffff" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 255, 255), rgb(0, 37, 37));"/>
+        </g>
+        <g>
+            <path d="M 133 97.51 Q 135.67 97.51 135.67 100.51 Q 135.67 103.51 133 103.51 Q 134.34 100.51 133 97.51 Z" fill="#404040" stroke="none" pointer-events="all" style="fill: light-dark(rgb(64, 64, 64), rgb(182, 182, 182));"/>
+        </g>
+        <g>
+            <rect x="115" y="105.01" width="8.67" height="1.5" rx="0.45" ry="0.45" fill="#cccccc" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g/>
+        <g>
+            <path d="M 141.16 97.51 L 141.83 97.51 Q 142.5 97.51 141.83 97.51 L 141.16 97.51" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 141.16 103.51 L 141.83 103.51 Q 142.5 103.51 141.83 103.51 L 141.16 103.51" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 141.16 99.01 L 141.83 99.01 Q 142.5 99.01 141.83 99.01 L 141.16 99.01" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 141.16 102.01 L 141.83 102.01 Q 142.5 102.01 141.83 102.01 L 141.16 102.01" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 139.83 90.01 L 139.83 92.26 Q 139.83 94.51 140.5 96.01 L 140.83 96.76 Q 141.16 97.51 141.16 100.51 L 141.16 102.01 Q 141.16 103.51 140.5 105.01 L 140.16 105.76 Q 139.83 106.51 139.83 108.76 L 139.83 111.01" fill="none" stroke="#cccccc" stroke-width="0.8" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="140.29" y="99.51" width="1.5" height="2" fill="#000000" stroke="none" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="141.9" y="99.71" width="4" height="1.5" rx="0.61" ry="0.61" fill="#dbdbdb" stroke="none" transform="rotate(90,143.9,100.46)" pointer-events="all" style="fill: light-dark(rgb(219, 219, 219), rgb(49, 49, 49));"/>
+        </g>
+        <g>
+            <path d="M 141.67 98.21 Q 144.34 98.21 144.34 100.46 Q 144.34 102.71 141.67 102.71 Z" fill="#000000" stroke="none" transform="rotate(180,143,100.46)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="139" y="90.01" width="2.16" height="3.75" rx="0.84" ry="0.84" fill="#f0cbaf" stroke="none" transform="rotate(90,140.08,91.88)" pointer-events="all" style="fill: light-dark(rgb(240, 203, 175), rgb(85, 53, 29));"/>
+        </g>
+        <g>
+            <rect x="139" y="107.26" width="2.16" height="3.75" rx="0.84" ry="0.84" fill="#f0cbaf" stroke="none" transform="rotate(90,140.08,109.13)" pointer-events="all" style="fill: light-dark(rgb(240, 203, 175), rgb(85, 53, 29));"/>
+        </g>
+        <g>
+            <path d="M 131 96.01 L 133.67 93.01 L 139 91.51" fill="none" stroke="#8f0000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <path d="M 130.13 104.95 L 133.67 108.01 L 139 109.51" fill="none" stroke="#8f0000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g/>
+        <g>
+            <path d="M 100 419.8 L 700 419.8" fill="none" stroke="#333333" stroke-width="200" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));"/>
+        </g>
+        <g>
+            <path d="M 100 419.8 L 700 419.8" fill="none" stroke="#999999" stroke-width="150" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(153, 153, 153), rgb(106, 106, 106));"/>
+        </g>
+        <g>
+            <path d="M 700 419.8 L 100 419.8" fill="none" stroke="#666666" stroke-width="120" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(102, 102, 102), rgb(149, 149, 149));"/>
+        </g>
+        <g>
+            <path d="M 700 420 L 100 420" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke" style="stroke: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+        </g>
+        <g>
+            <path d="M 700 480 L 100 480" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+        </g>
+        <g>
+            <path d="M 700 360 L 100 360" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+        </g>
+        <g>
+            <rect x="480" y="370.01" width="60" height="40" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-end; width: 1px; height: 1px; padding-top: 390px; margin-left: 538px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: right; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                    <div>
+                                        <font style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                            Motorbike0
+                                        </font>
+                                    </div>
+                                    <font color="#ffffff" style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                        vxi_npc
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="538" y="394" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="end">
+                        Motorbike0vxi_npc
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 580 389.72 L 617.63 389.72" fill="none" stroke="#cc6600" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 102, 0), rgb(212, 125, 37));"/>
+            <path d="M 622.88 389.72 L 615.88 393.22 L 617.63 389.72 L 615.88 386.22 Z" fill="#cc6600" stroke="#cc6600" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(204, 102, 0), rgb(212, 125, 37)); stroke: light-dark(rgb(204, 102, 0), rgb(212, 125, 37));"/>
+        </g>
+        <g>
+            <path d="M 390 389.76 L 424.63 389.97" fill="none" stroke="#0000cc" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 204), rgb(212, 212, 255));"/>
+            <path d="M 429.88 390 L 422.86 393.46 L 424.63 389.97 L 422.9 386.46 Z" fill="#0000cc" stroke="#0000cc" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 204), rgb(212, 212, 255)); stroke: light-dark(rgb(0, 0, 204), rgb(212, 212, 255));"/>
+        </g>
+        <g>
+            <rect x="250" y="370.01" width="60" height="40" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-end; width: 1px; height: 1px; padding-top: 390px; margin-left: 308px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: right; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                    <font style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                        Ego
+                                    </font>
+                                    <div>
+                                        <font style="color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));">
+                                            vxi_npc
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="308" y="394" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="end">
+                        Ego...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g/>
+        <g>
+            <rect x="310" y="370" width="80" height="40" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <rect x="323" y="375" width="50" height="30" fill="#1ba1e2" stroke="none" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 303 395 L 305.01 385 L 330.99 385 L 333 395 Z" fill="#1ba1e2" stroke="none" transform="rotate(-90,318,390)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <rect x="320" y="377" width="50" height="26" fill="#ccffff" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 255, 255), rgb(0, 37, 37));"/>
+        </g>
+        <g>
+            <path d="M 360 375 C 360 380.5 366.72 384.97 375 384.97 C 383.28 384.97 390 380.5 390 375 L 390 395.03 C 390 397.68 388.42 400.21 385.61 402.08 C 382.79 403.95 378.98 405 375 405 C 371.02 405 367.21 403.95 364.39 402.08 C 361.58 400.21 360 397.68 360 395.03 Z" fill="#1ba1e2" stroke="none" transform="rotate(-90,375,390)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 337 380 C 337 381 341.48 381.81 347 381.81 C 352.52 381.81 357 381 357 380 L 357 398.19 C 357 399.19 352.52 400 347 400 C 341.48 400 337 399.19 337 398.19 Z" fill="#1ba1e2" stroke="none" transform="rotate(-90,347,390)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 332 380 C 332 381 336.48 381.81 342 381.81 C 347.52 381.81 352 381 352 380 L 352 398.19 C 352 399.19 347.52 400 342 400 C 336.48 400 332 399.19 332 398.19 Z" fill="#1ba1e2" stroke="none" transform="rotate(90,342,390)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 312.99 377 L 324 377 Q 318.01 390 324 403 L 312.99 403 Q 307.01 390 312.99 377 Z" fill="#1ba1e2" stroke="none" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 382 380 C 382 380.55 383.79 381 386 381 C 388.21 381 390 380.55 390 380 Z" fill="#ffffcc" stroke="none" transform="rotate(-125,386,380.5)" pointer-events="all" style="fill: light-dark(rgb(255, 255, 204), rgb(24, 24, 0));"/>
+        </g>
+        <g>
+            <path d="M 382 399 C 382 399.55 383.79 400 386 400 C 388.21 400 390 399.55 390 399 Z" fill="#ffffcc" stroke="none" transform="translate(0,399.5)scale(1,-1)translate(0,-399.5)rotate(-125,386,399.5)" pointer-events="all" style="fill: light-dark(rgb(255, 255, 204), rgb(24, 24, 0));"/>
+        </g>
+        <g>
+            <rect x="363" y="372" width="2" height="5" rx="0.82" ry="0.82" fill="#1ba1e2" stroke="none" transform="rotate(330,364,374.5)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <rect x="363" y="403" width="2" height="5" rx="0.82" ry="0.82" fill="#1ba1e2" stroke="none" transform="rotate(30,364,405.5)" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 310 380 C 310 380.55 311.57 381 313.5 381 C 315.43 381 317 380.55 317 380 Z" fill="#660000" stroke="none" transform="rotate(115,313.5,380.5)" pointer-events="all" style="fill: light-dark(rgb(102, 0, 0), rgb(255, 200, 200));"/>
+        </g>
+        <g>
+            <path d="M 310 399 C 310 399.55 311.57 400 313.5 400 C 315.43 400 317 399.55 317 399 Z" fill="#660000" stroke="none" transform="translate(0,399.5)scale(1,-1)translate(0,-399.5)rotate(-245,313.5,399.5)" pointer-events="all" style="fill: light-dark(rgb(102, 0, 0), rgb(255, 200, 200));"/>
+        </g>
+        <g>
+            <rect x="312" y="382" width="6" height="16" fill="#1ba1e2" stroke="none" pointer-events="all" style="fill: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 322 378 Q 343.6 384.17 369 378" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 321.5 402 Q 343.1 395.83 368.5 402" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 322 378 Q 336.01 375 370 378" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 321 402 Q 335.01 405 369 402" fill="none" stroke="#1ba1e2" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 336 380 L 338 376" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 346 381 L 349 377" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 346 381 L 348 376" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 336 400 L 338 404" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 346 399 L 349 403" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g>
+            <path d="M 346 399 L 348 404" fill="none" stroke="#1ba1e2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(27, 161, 226), rgb(25, 140, 196));"/>
+        </g>
+        <g/>
+        <g>
+            <rect x="540" y="375.01" width="40" height="30" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <rect x="570.23" y="389.22" width="5.33" height="1.5" fill="#cccccc" stroke="none" transform="rotate(90,572.89,389.97)" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="570.56" y="384.99" width="1.33" height="4.05" rx="0.65" ry="0.65" fill="#000000" stroke="none" transform="rotate(90,571.23,387.01)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="570.56" y="390.94" width="1.33" height="4.05" rx="0.65" ry="0.65" fill="#000000" stroke="none" transform="rotate(90,571.23,392.97)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <path d="M 566.89 392.97 L 568.89 392.97 Q 570.89 392.97 568.89 392.97 L 566.89 392.97" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="555" y="389.28" width="5" height="1.41" rx="0.7" ry="0.7" fill="#4d4d4d" stroke="none" transform="rotate(90,557.5,389.98)" pointer-events="all" style="fill: light-dark(rgb(77, 77, 77), rgb(171, 171, 171));"/>
+        </g>
+        <g>
+            <path d="M 566.89 387 L 568.89 387 Q 570.89 387 568.89 387 L 566.89 387" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="565" y="388.88" width="8" height="2.11" rx="1.06" ry="1.06" fill="#4d4d4d" stroke="none" transform="rotate(-90,569,389.94)" pointer-events="all" style="fill: light-dark(rgb(77, 77, 77), rgb(171, 171, 171));"/>
+        </g>
+        <g>
+            <path d="M 549.82 395.42 L 552 393.01" fill="none" stroke="#4d4d4d" stroke-width="0.4" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(77, 77, 77), rgb(171, 171, 171));"/>
+        </g>
+        <g>
+            <rect x="544" y="386.26" width="5.33" height="1.5" rx="0.35" ry="0.35" fill="#cccccc" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="544" y="392.21" width="5.33" height="1.5" rx="0.45" ry="0.45" fill="#cccccc" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <ellipse cx="559.33" cy="393.76" rx="2" ry="3.75" fill="#333333" stroke="none" transform="rotate(105,559.33,393.76)" pointer-events="all" style="fill: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));"/>
+        </g>
+        <g>
+            <rect x="558" y="384.01" width="5.33" height="12" rx="1.76" ry="1.76" fill="#ffb366" stroke="none" transform="rotate(90,560.66,390.01)" pointer-events="all" style="fill: light-dark(rgb(255, 179, 102), rgb(130, 65, 0));"/>
+        </g>
+        <g>
+            <rect x="571.56" y="383.21" width="2.67" height="13.5" rx="0.93" ry="0.93" fill="#000000" stroke="none" transform="rotate(90,572.89,389.96)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="547" y="381.76" width="2.67" height="16.5" rx="0.96" ry="0.96" fill="#000000" stroke="none" transform="rotate(90,548.33,390.01)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="545.33" y="384.01" width="4" height="12" rx="1.16" ry="1.16" fill="#ffb366" stroke="none" transform="rotate(90,547.33,390.01)" pointer-events="all" style="fill: light-dark(rgb(255, 179, 102), rgb(130, 65, 0));"/>
+        </g>
+        <g>
+            <rect x="572" y="384.76" width="2.67" height="10.5" rx="1.33" ry="1.33" fill="#ffb366" stroke="none" transform="rotate(90,573.33,390.01)" pointer-events="all" style="fill: light-dark(rgb(255, 179, 102), rgb(130, 65, 0));"/>
+        </g>
+        <g>
+            <rect x="550.67" y="384.01" width="5.33" height="12" rx="1.76" ry="1.76" fill="#000000" stroke="none" transform="rotate(90,553.33,390.01)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <ellipse cx="559.33" cy="386.26" rx="2" ry="3.75" fill="#333333" stroke="none" transform="rotate(75,559.33,386.26)" pointer-events="all" style="fill: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));"/>
+        </g>
+        <g>
+            <rect x="551" y="387.27" width="10.65" height="6" rx="3" ry="3" fill="#8f0000" stroke="none" transform="rotate(90,556.33,390.27)" pointer-events="all" style="fill: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <ellipse cx="564.67" cy="389.93" rx="0.6666666666666666" ry="0.6666666666666666" fill="#cccccc" stroke="none" transform="rotate(90,564.67,389.93)" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 549.33 393.27 L 551.21 387.46 L 559.79 387.46 L 561.67 393.27 Z" fill="#8f0000" stroke="none" transform="rotate(-90,555.5,390.36)" pointer-events="all" style="fill: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <rect x="550" y="387.35" width="9" height="6" rx="3" ry="3" fill="#8f0000" stroke="none" transform="rotate(90,554.5,390.35)" pointer-events="all" style="fill: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <rect x="556" y="386.61" width="7.03" height="6.71" rx="3.08" ry="3.08" fill="#404040" stroke="none" transform="rotate(180,559.51,389.96)" pointer-events="all" style="fill: light-dark(rgb(64, 64, 64), rgb(182, 182, 182));"/>
+        </g>
+        <g>
+            <path d="M 560 387.01 Q 562.67 387.01 562.67 390.01 Q 562.67 393.01 560 393.01 Q 561.33 390.01 560 387.01 Z" fill="#ccffff" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 255, 255), rgb(0, 37, 37));"/>
+        </g>
+        <g>
+            <path d="M 559.33 387.01 Q 562 387.01 562 390.01 Q 562 393.01 559.33 393.01 Q 560.67 390.01 559.33 387.01 Z" fill="#404040" stroke="none" pointer-events="all" style="fill: light-dark(rgb(64, 64, 64), rgb(182, 182, 182));"/>
+        </g>
+        <g>
+            <rect x="541.33" y="394.51" width="8.67" height="1.5" rx="0.45" ry="0.45" fill="#cccccc" stroke="none" pointer-events="all" style="fill: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g/>
+        <g>
+            <path d="M 567.49 387.01 L 568.16 387.01 Q 568.83 387.01 568.16 387.01 L 567.49 387.01" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 567.49 393.01 L 568.16 393.01 Q 568.83 393.01 568.16 393.01 L 567.49 393.01" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 567.49 388.51 L 568.16 388.51 Q 568.83 388.51 568.16 388.51 L 567.49 388.51" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 567.49 391.51 L 568.16 391.51 Q 568.83 391.51 568.16 391.51 L 567.49 391.51" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <path d="M 566.16 379.51 L 566.16 381.76 Q 566.16 384.01 566.83 385.51 L 567.16 386.26 Q 567.49 387.01 567.49 390.01 L 567.49 391.51 Q 567.49 393.01 566.83 394.51 L 566.49 395.26 Q 566.16 396.01 566.16 398.26 L 566.16 400.51" fill="none" stroke="#cccccc" stroke-width="0.8" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(204, 204, 204), rgb(62, 62, 62));"/>
+        </g>
+        <g>
+            <rect x="566.62" y="389.01" width="1.5" height="2" fill="#000000" stroke="none" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="568.23" y="389.22" width="4" height="1.5" rx="0.61" ry="0.61" fill="#dbdbdb" stroke="none" transform="rotate(90,570.23,389.97)" pointer-events="all" style="fill: light-dark(rgb(219, 219, 219), rgb(49, 49, 49));"/>
+        </g>
+        <g>
+            <path d="M 568 387.71 Q 570.67 387.71 570.67 389.96 Q 570.67 392.21 568 392.21 Z" fill="#000000" stroke="none" transform="rotate(180,569.33,389.96)" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));"/>
+        </g>
+        <g>
+            <rect x="565.33" y="379.51" width="2.16" height="3.75" rx="0.84" ry="0.84" fill="#f0cbaf" stroke="none" transform="rotate(90,566.41,381.38)" pointer-events="all" style="fill: light-dark(rgb(240, 203, 175), rgb(85, 53, 29));"/>
+        </g>
+        <g>
+            <rect x="565.33" y="396.76" width="2.16" height="3.75" rx="0.84" ry="0.84" fill="#f0cbaf" stroke="none" transform="rotate(90,566.41,398.64)" pointer-events="all" style="fill: light-dark(rgb(240, 203, 175), rgb(85, 53, 29));"/>
+        </g>
+        <g>
+            <path d="M 557.33 385.51 L 560 382.51 L 565.33 381.01" fill="none" stroke="#8f0000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+        <g>
+            <path d="M 556.46 394.45 L 560 397.51 L 565.33 399.01" fill="none" stroke="#8f0000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(143, 0, 0), rgb(255, 185, 185));"/>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
