@@ -2,7 +2,13 @@
     "version": "0.2",
     "language": "en",
     "words": [
-        "vrel"
+        "vrel",
+        "shapefile",
+        "DSRC",
+        "GLONASS",
+        "sidelink",
+        "QZSS",
+        "Horiba"
     ],
     "patterns": [
         {

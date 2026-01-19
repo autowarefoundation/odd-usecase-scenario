@@ -79,7 +79,7 @@ TAXONOMY:
         sign_types:
           - regulatory_signs # Used to enforce traffic laws. e.g. traffic lights
           - warning_signs # Advisory signs, warning drivers of hazardous situations or conditions
-          - information_signs # Diretcions and information about services
+          - information_signs # Directions and information about services
         sign_features:
           - movable_signs
           - fixed_signs
