@@ -1,0 +1,53 @@
+IMPORT:
+  - ../ODD_Taxonomy_Extended.yaml
+
+ODD:
+  pov_vision_pilot_main_module:
+    TITLE: ODD for Vision Pilot
+    DESCRIPTION: This module defines the ODD for the Vision Pilot product of the PoV Working Group.
+    INCLUDE_AND:
+      module_l2_plus_highway_driving_planning: true
+    EXCLUDE_OR:
+      poor_sensing_conditions: true
+      poor_control_conditions: true
+
+MODULES:
+  module_l2_plus_highway_driving_planning:
+    TITLE: ODD of the L2+ Lane Keeping behavior
+    INCLUDE_AND:
+      drivable_area_type:
+        - motorways_or_highways_or_interstates
+      curvature: "[0.0 .. 0.0125] 1/m" # Reference: steep curve track of Horiba MIRA test track
+      bank_angle: "[-1 .. 7] deg" # Reference: US interstate highways
+      inclination_angle: "[-5.0 .. 5.0] deg" # Reference: US interstate highways
+      lane_marking:
+        - clear_lane_marking
+        - blurred_lane_marking
+    EXCLUDE_OR:
+      temporary_drivable_area_structures:
+        - construction_site_detour
+        - road_work
+      presence_of_special_vehicles:
+        - ambulances
+        - police_vehicles
+        - work_vehicles
+
+  module_poor_camera_sensing_conditions:
+    TITLE: Conditions that negatively affect the camera sensor's sensing capabilities
+    LABEL: poor_sensing_conditions
+    INCLUDE_OR: 
+      rainfall_rate: "> light_rain"
+      snowfall: "> light_snow"
+      illuminance: "< 0.1 lux" # Reference: ~ full moon at night
+
+  module_poor_vehicle_control:
+    TITLE: Conditions that negatively affect the vehicle's control capabilities
+    LABEL: poor_control_conditions
+    INCLUDE_OR:
+      drivable_area_included_surface_condition:
+        - icy
+        - flooded
+        - standing_water
+        - snow_on_surface
+        - wet
+        - surface_contamination

@@ -4,11 +4,20 @@
     "words": [
         "vrel",
         "unsignalized"
+        "vrelx",
+        "vrely",
+        "shapefile",
+        "DSRC",
+        "GLONASS",
+        "sidelink",
+        "QZSS",
+        "Horiba",
+        "geofenced"
     ],
     "patterns": [
         {
             "name": "gherkin_parameter_abbreviations",
-            "pattern": "/<(s|v|a|j|d|vrel)(x|y|e)?(i|min|max)?>/g"
+            "pattern": "/<(s|v|a|j|d|vrel)?(x|y|e)?(i|min|max)?([^\\s>]*)?>/g"
         }
     ],
 
