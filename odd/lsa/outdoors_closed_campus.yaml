@@ -1,0 +1,102 @@
+IMPORT:
+  - ../ODD_Taxonomy_Extended.yaml
+
+ODD:
+  odd_lsa_module:
+    TITLE: ODD for Low Speed Vehicles at University Campus 
+    DESCRIPTION: This module defines the ODD for Low Speed Autonomous vehicles (LSAs) at a university campus.
+    INCLUDE_AND:
+      module_l4_in-campus_driving: true
+    EXCLUDE_OR:
+      poor_sensing_conditions: true
+      poor_control_conditions: true
+      unhandled_objects: true
+
+MODULES:
+  module_l4_in-campus_driving:
+    TITLE: Road definition for L4 campus driving
+    INCLUDE_AND:
+      drivable_area_type:
+        - primary_roads
+        - distributor_roads
+        - minor_or_local_roads
+        - parking_space
+        - docking_area
+        - recharging_area
+      drivable_area_type_classification:
+        - with_active_traffic_management
+        - without_active_traffic_management
+      horizontal_plane:
+        - straight_lines
+        - curves
+      curvature_radius: ">= 25 m"
+      transverse_plane_type:
+        - divided 
+      bank_angle: "[-1.15 .. 1.15] deg"
+      longitudinal_plane:
+        - up-slope
+        - down-slope
+        - level_plane
+      inclination_angle: "[-15 .. 15] deg" 
+      lane_width: "[2 .. 4] m" 
+      number_of_lanes: "<= 2"
+      drivable_area_surface:
+        - asphalt
+        - cement_concrete
+        - pavers
+      drivable_area_edge:
+        - line_markers
+        - solid_barriers
+      drivable_area_shoulder:
+        - paved or gravel
+      roundabout:
+        - mini
+        - compact
+        - normal
+        - large
+      intersection:
+        - t-junction
+        - y-junction
+        - cross_road
+      intersection_classification:
+        - signalized
+        - unsignalized
+
+  module_poor_control_conditions:
+    TITLE: Conditions that negatively affect the ADS' control capabilities
+    LABEL: poor_control_conditions
+    INCLUDE_OR:
+      wind_speed: ">= 13.4 m/s" 
+      drivable_area_included_surface_condition:
+        - icy
+        - flooded
+        - standing_water
+        - snow_on_surface
+        - wet
+        - surface_contamination
+
+  module_poor_sensing_conditions:
+    TITLE: Conditions that negatively affect the ADS' sensing capabilities
+    LABEL: poor_sensing_conditions
+    INCLUDE_OR: 
+      rainfall_rate: "> 2.5 mm/h" 
+      snowfall_visibility: "<= 1000 m"
+      illuminance: "< 2000 lux" 
+      temperature: "< -10 C"
+
+  module_vehicle_restrictions:
+    TITLE: Conditions that negatively affect the ADS' sensing capabilities
+    LABEL: poor_sensing_conditions
+    INCLUDE_OR: 
+      rainfall_rate: "> 2.5 mm/h"
+
+  module_unhandled_objects:
+    TITLE: Objects that cannot be handled by the ADS
+    LABEL: unhandled_objects
+    INCLUDE_OR:
+      agent_type:
+        - horse_riders # optional
+      presence_of_special_vehicles:
+        - ambulances
+        - police_vehicles
+        - work_vehicles
