@@ -2,7 +2,16 @@
     "version": "0.2",
     "language": "en",
     "words": [
-        "vrel"
+        "vrel",
+        "vrelx",
+        "vrely",
+        "shapefile",
+        "DSRC",
+        "GLONASS",
+        "sidelink",
+        "QZSS",
+        "Horiba",
+        "geofenced"
     ],
     "patterns": [
         {

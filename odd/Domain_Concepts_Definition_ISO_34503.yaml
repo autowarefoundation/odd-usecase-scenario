@@ -1,10 +1,9 @@
 TAXONOMY:
 
   scenery_elements:
-
     zone:
-     geofenced_areas: shapefile
-     zone_type:
+      geofenced_areas: shapefile
+      zone_type:
         fixed_zone:
           - school_zone
           - environmental_zone
@@ -18,9 +17,9 @@ TAXONOMY:
           - overhead_wires
           - dense_foliage
         port_zone:
-          - any_port_zone # newly added to avoid empty categoricals
+          - any_port_zone # newly added to avoid empty categorical types
         freight_distribution_centre:
-          - any_distribution_centre # newly added to avoid empty categoricals
+          - any_distribution_centre # newly added to avoid empty categorical types
         region_or_states: shapefile
 
     drivable_area:
@@ -32,7 +31,7 @@ TAXONOMY:
         - minor_or_local_roads # provide access to residential areas and other local developments
         - slip_roads_or_off-ramps # used to drive on to and off a motorway or highways or interstates
         - parking_space # physical space where one vehicle is parked
-        - shared_space #  may be shared between subject vehicle and other actors
+        - shared_space #  may be shared between subject vehicle and other actors (non-vehicle included)
       drivable_area_type_classification:
         - with_active_traffic_management
         - without_active_traffic_management
@@ -40,24 +39,25 @@ TAXONOMY:
         horizontal_plane:
           - straight_lines
           - curves
-        transverse_plane:
+        transverse_plane: # cross-section of the road 
           transverse_plane_type:
-            - divided
-            - undivided
-            - pavements
+            - divided # traffic in both directions can happen in the same road
+            - undivided # traffic in opposite directions is separated into different roads
+            - pavements # no particular specification regarding the opposite traffic separation or lack thereof
           barriers_on_road_edges:
-            - any_barriers_on_road_edges # newly added to avoid empty categoricals
+            - any_barriers_on_road_edges # newly added to avoid empty categorical types
           types_of_lanes_together:
-            - any_types_of_lanes_together # newly added to avoid empty categoricals
+            - any_types_of_lanes_together # newly added to avoid empty categorical types
           superelevation_banking:
-            - any_superelevation_banking # newly added to avoid empty categoricals
+            - any_superelevation_banking # newly added to avoid empty categorical types
         longitudinal_plane:
           - up-slope # positive gradient
           - down-slope # negative-gradient
           - level_plane
       drivable_area_lane_specification:
         lane_dimensions:
-          - any_lane_dimension # newly added to avoid empty categoricals
+          any_lane_dimension:
+            lane_width: ">= 0 m"
         lane_marking:
           - clear_lane_marking
           - blurred_lane_marking
@@ -77,9 +77,9 @@ TAXONOMY:
         speed_limit: integer velocity
       drivable_area_signs:
         sign_types:
-          - regulatory_signs # e.g. traffic lights
-          - warning_signs
-          - information_signs
+          - regulatory_signs # Used to enforce traffic laws. e.g. traffic lights
+          - warning_signs # Advisory signs, warning drivers of hazardous situations or conditions
+          - information_signs # Directions and information about services
         sign_features:
           - movable_signs
           - fixed_signs
@@ -130,18 +130,18 @@ TAXONOMY:
       roundabout_diameter: integer length # newly added for value ranges
       double: boolean # two roundabouts which are separated by a short link
       roundabout_classification:
-        - signalized_roundabout
+        - signalized_roundabout # with traffic lights
         - non-signalized_roundabout_with_yielding_traffic
         - non-signalized_roundabout_without_yielding_traffic
       intersection:
-        - t-junction
-        - y-junction
-        - cross_road
-        - staggered
-        - grade_separated
+        - t-junction # 3-pronged junctions with straight section
+        - y-junction # 3-pronged junctions without straight section
+        - cross_road # 4-pronged junctions where all prongs converge to one point
+        - staggered # 4-pronged junctions where the prongs do not converge to one point
+        - grade_separated # interchanges
       intersection_classification:
-        - signalized_intersection
-        - non-signalized_intersection
+        - signalized_intersection # with traffic lights
+        - non-signalized_intersection # without traffic lights
 
     basic_road_structures:
       - building
@@ -206,7 +206,7 @@ TAXONOMY:
           wind_speed: "[28.4 .. 32.6] m/s"
         hurricane_force: # >= 32,7 m/s
           wind_speed: ">= 32.6 m/s"
-        wind_speed: float velocity # newly added for value ranges
+      wind_speed: float velocity # newly added for value ranges
 
       rain:
         average_rainfall_per_time: float precipitation_rate
@@ -267,16 +267,16 @@ TAXONOMY:
       illuminance: float illuminance # newly added for value ranges
 
       cloudiness:
-        clear: # 0 – 1 oktas
-          cloudiness_rate: "<= 1 Oktas"
-        partly_cloudy_few_clouds: # 1 – 2 oktas
-          cloudiness_rate: "[1 .. 2] Oktas"
-        partly_cloudy_scattered_clouds: # 3 – 4 oktas
-          cloudiness_rate: "[3 .. 4] Oktas"
-        partly_cloudy_broken_clouds: # 5 – 7 oktas
-          cloudiness_rate: "[5 .. 7] Oktas"
-        overcast: # 8 oktas
-          cloudiness_rate: ">= 8 Oktas"
+        clear: # 0 – 1 okta
+          cloudiness_rate: "<= 1 okta"
+        partly_cloudy_few_clouds: # 1 – 2 okta
+          cloudiness_rate: "[1 .. 2] okta"
+        partly_cloudy_scattered_clouds: # 3 – 4 okta
+          cloudiness_rate: "[3 .. 4] okta"
+        partly_cloudy_broken_clouds: # 5 – 7 okta
+          cloudiness_rate: "[5 .. 7] okta"
+        overcast: # 8 okta
+          cloudiness_rate: ">= 8 okta"
       cloudiness_rate: integer cloud_coverage # newly added for value ranges
 
       elevation_of_the_sun: float angle
@@ -301,7 +301,7 @@ TAXONOMY:
           - BeiDou
           - Quasi-Zenith_Satellite_System # QZSS
         local_positioning:
-          - any_local_positioning # newly added to avoid empty categoricals
+          - any_local_positioning # newly added to avoid empty categorical types
 
   dynamic_elements:
 
@@ -311,6 +311,7 @@ TAXONOMY:
         - non-motor_vehicle
         - vulnerable_road_users # pedestrians two-wheelers, bicycles, e-scooters
         - animals
+        - horse_riders
       presence_of_special_vehicles:
         - ambulances
         - police_vehicles
