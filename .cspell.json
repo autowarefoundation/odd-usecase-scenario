@@ -3,12 +3,15 @@
     "language": "en",
     "words": [
         "vrel",
+        "vrelx",
+        "vrely",
         "shapefile",
         "DSRC",
         "GLONASS",
         "sidelink",
         "QZSS",
-        "Horiba"
+        "Horiba",
+        "geofenced"
     ],
     "patterns": [
         {
