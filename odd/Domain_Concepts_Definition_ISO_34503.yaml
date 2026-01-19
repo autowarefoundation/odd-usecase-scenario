@@ -17,9 +17,9 @@ TAXONOMY:
           - overhead_wires
           - dense_foliage
         port_zone:
-          - any_port_zone # newly added to avoid empty categoricals
+          - any_port_zone # newly added to avoid empty categorical types
         freight_distribution_centre:
-          - any_distribution_centre # newly added to avoid empty categoricals
+          - any_distribution_centre # newly added to avoid empty categorical types
         region_or_states: shapefile
 
     drivable_area:
@@ -45,11 +45,11 @@ TAXONOMY:
             - undivided # traffic in opposite directions is separated into different roads
             - pavements # no particular specification regarding the opposite traffic separation or lack thereof
           barriers_on_road_edges:
-            - any_barriers_on_road_edges # newly added to avoid empty categoricals
+            - any_barriers_on_road_edges # newly added to avoid empty categorical types
           types_of_lanes_together:
-            - any_types_of_lanes_together # newly added to avoid empty categoricals
+            - any_types_of_lanes_together # newly added to avoid empty categorical types
           superelevation_banking:
-            - any_superelevation_banking # newly added to avoid empty categoricals
+            - any_superelevation_banking # newly added to avoid empty categorical types
         longitudinal_plane:
           - up-slope # positive gradient
           - down-slope # negative-gradient
@@ -79,7 +79,7 @@ TAXONOMY:
         sign_types:
           - regulatory_signs # Used to enforce traffic laws. e.g. traffic lights
           - warning_signs # Advisory signs, warning drivers of hazardous situations or conditions
-          - information_signs # Diretcions and informations about services
+          - information_signs # Diretcions and information about services
         sign_features:
           - movable_signs
           - fixed_signs
@@ -137,7 +137,7 @@ TAXONOMY:
         - t-junction # 3-pronged junctions with straight section
         - y-junction # 3-pronged junctions without straight section
         - cross_road # 4-pronged junctions where all prongs converge to one point
-        - staggered # 4-pronged junctions where the prongs do not converte to one point
+        - staggered # 4-pronged junctions where the prongs do not converge to one point
         - grade_separated # interchanges
       intersection_classification:
         - signalized_intersection # with traffic lights
@@ -267,16 +267,16 @@ TAXONOMY:
       illuminance: float illuminance # newly added for value ranges
 
       cloudiness:
-        clear: # 0 – 1 oktas
-          cloudiness_rate: "<= 1 Oktas"
-        partly_cloudy_few_clouds: # 1 – 2 oktas
-          cloudiness_rate: "[1 .. 2] Oktas"
-        partly_cloudy_scattered_clouds: # 3 – 4 oktas
-          cloudiness_rate: "[3 .. 4] Oktas"
-        partly_cloudy_broken_clouds: # 5 – 7 oktas
-          cloudiness_rate: "[5 .. 7] Oktas"
-        overcast: # 8 oktas
-          cloudiness_rate: ">= 8 Oktas"
+        clear: # 0 – 1 okta
+          cloudiness_rate: "<= 1 okta"
+        partly_cloudy_few_clouds: # 1 – 2 okta
+          cloudiness_rate: "[1 .. 2] okta"
+        partly_cloudy_scattered_clouds: # 3 – 4 okta
+          cloudiness_rate: "[3 .. 4] okta"
+        partly_cloudy_broken_clouds: # 5 – 7 okta
+          cloudiness_rate: "[5 .. 7] okta"
+        overcast: # 8 okta
+          cloudiness_rate: ">= 8 okta"
       cloudiness_rate: integer cloud_coverage # newly added for value ranges
 
       elevation_of_the_sun: float angle
@@ -301,7 +301,7 @@ TAXONOMY:
           - BeiDou
           - Quasi-Zenith_Satellite_System # QZSS
         local_positioning:
-          - any_local_positioning # newly added to avoid empty categoricals
+          - any_local_positioning # newly added to avoid empty categorical types
 
   dynamic_elements:
 
