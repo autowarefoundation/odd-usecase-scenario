@@ -1,0 +1,104 @@
+IMPORT:
+  - ../ODD_Taxonomy_Extended.yaml
+
+ODD:
+  lightweight_box_truck_main_module:
+    TITLE: ODD for L2+ Lightweight Truck
+    DESCRIPTION: This module defines the ODD for the L2+ lightweight box truck software developed by the AWF Truck Working Group.
+    INCLUDE_AND:
+      module_l2_plus_planning: true
+    EXCLUDE_OR:
+      poor_sensing_conditions: true
+      poor_control_conditions: true
+
+MODULES:
+  module_l2_plus_planning:
+    TITLE: Definition of the driving conditions supported by the planning stack.
+    INCLUDE_AND:
+      module_l2_plus_highway: true
+      # module_l2_plus_highway_urban_transition: true
+      # module_l2_plus_urban: true
+    EXCLUDE_OR:
+      unsupported_planning_conditions: true
+
+  module_l2_plus_highway:
+    TITLE: Definition of the normal highway driving conditions for L2+ automation.
+    INCLUDE_AND:
+      drivable_area_type:
+        - motorways_or_highways_or_interstates
+        - primary_roads # e.g., dual-carriage ways, single carriage ways
+      curvature: "[0.0 .. 0.0125] 1/m" # Reference: steep curve track of Horiba MIRA test track
+      bank_angle: "[-1 .. 7] deg" # Reference: US interstate highways
+      inclination_angle: "[-5.0 .. 5.0] deg" # Reference: US interstate highways
+      lane_marking:
+        - clear_lane_marking
+        - blurred_lane_marking
+
+  module_l2_plus_highway_urban_transition:
+    INCLUDE_AND:
+      drivable_area_type:
+        - radial_roads 
+        - slip_roads_or_off-ramps 
+      curvature: "[0.0 .. 0.0125] 1/m" # temporary values
+      bank_angle: "[-1 .. 7] deg" # temporary values
+      inclination_angle: "[-5.0 .. 5.0] deg" # temporary values
+      lane_marking:
+        - clear_lane_marking
+        - blurred_lane_marking
+ 
+  module_l2_plus_urban:
+    TITLE: Definition of the urban driving conditions for L2+ automation.
+    INCLUDE_AND:
+      drivable_area_type:
+        - distributor_roads # connect radial roads with minor or local roads and generally have low to moderate capacity
+        - minor_or_local_roads # provide access to residential areas and other local developments
+        - parking_space # physical space where one vehicle is parked
+        - shared_space #  may be shared between subject vehicle and other actors (non-vehicle included)
+      drivable_area_type_classification:
+        - with_active_traffic_management
+        - without_active_traffic_management
+      curvature: "[0.0 .. 0.0125] 1/m"  # temporary values
+      bank_angle: "[-1 .. 7] deg" # temporary values
+      inclination_angle: "[-5.0 .. 5.0] deg" # temporary values
+      lane_marking:
+        - clear_lane_marking
+        - blurred_lane_marking
+
+  module_poor_camera_sensing_conditions:
+    TITLE: Conditions that negatively affect the camera sensor's sensing capabilities
+    LABEL: poor_sensing_conditions
+    INCLUDE_OR: 
+      rainfall_rate: "> light_rain"
+      snowfall: "> light_snow"
+      illuminance: "< 0.1 lux" # Reference: ~ full moon at night
+
+  module_poor_vehicle_control:
+    TITLE: Conditions that negatively affect the vehicle's control capabilities
+    LABEL: poor_control_conditions
+    INCLUDE_OR:
+      drivable_area_included_surface_condition:
+        - icy
+        - flooded
+        - standing_water
+        - snow_on_surface
+        - wet
+        - surface_contamination
+  
+  module_poor_cargo_vehicle_control:
+    TITLE: Conditions that negatively affect large vehicles that transport cargo
+    LABEL: poor_control_conditions
+    INCLUDE_OR:
+      weight: "> xxx kg"
+      # Need to add an ODD attribute for load distribution evenness
+
+  module_unsupported_situations:
+    TITLE: Dynamic conditions that prevent the vehicle from performing the desired automation level of driving.
+    LABEL: unsupported_planning_conditions
+    INCLUDE_OR:
+      temporary_drivable_area_structures:
+        - construction_site_detour
+        - road_work
+      presence_of_special_vehicles:
+        - ambulances
+        - police_vehicles
+        - work_vehicles
