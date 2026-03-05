@@ -89,7 +89,7 @@ MODULES:
     LABEL: poor_control_conditions
     INCLUDE_OR:
       weight: "> xxx kg"
-      # Need to add an ODD attribute for load distribution evenness
+      max_load_on_driving_axles: "> xxx kg"
 
   module_unsupported_situations:
     TITLE: Dynamic conditions that prevent the vehicle from performing the desired automation level of driving.
