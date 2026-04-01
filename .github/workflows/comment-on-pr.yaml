@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Initial PR comment
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
           message: |
             Thank you for contributing to the Autoware project!
