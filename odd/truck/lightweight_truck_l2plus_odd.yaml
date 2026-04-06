@@ -54,6 +54,7 @@ MODULES:
         - minor_or_local_roads # provide access to residential areas and other local developments
         - parking_space # physical space where one vehicle is parked
         - shared_space #  may be shared between subject vehicle and other actors (non-vehicle included)
+        - dockign_area
       drivable_area_type_classification:
         - with_active_traffic_management
         - without_active_traffic_management
@@ -63,6 +64,35 @@ MODULES:
       lane_marking:
         - clear_lane_marking
         - blurred_lane_marking
+      roundabout:
+        - mini
+        - compact
+        - normal
+        - large
+      roundabout_classification:
+        - signalized_roundabout
+        - non-signalized_roundabout_with_yielding_traffic
+        - non-signalized_roundabout_without_yielding_traffic
+      intersection:
+        - t-junction
+        - y-junction
+        - cross_road
+        - staggered
+        - grade_separated
+      intersection_classification:
+        - signalized_intersection
+        - non-signalized_intersection
+      basic_road_structures:
+        - building
+        - streetlight
+        - street_furniture # e.g. bollards
+        - vegetation
+      special_structures_type:
+        - bridge
+        - pedestrian_crossing
+        - rail_crossing
+        - tunnel
+        - toll_plaza
 
   module_poor_camera_sensing_conditions:
     TITLE: Conditions that negatively affect the camera sensor's sensing capabilities
