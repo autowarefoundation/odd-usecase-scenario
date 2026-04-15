@@ -33,6 +33,16 @@ MODULES:
       lane_marking:
         - clear_lane_marking
         - blurred_lane_marking
+    EXCLUDE_OR:
+      lane_type:
+        - shoulder_lane
+      special_structures_type:
+        - toll_plaza
+      temporary_drivable_area_structures:
+        - construction_site_detour
+        - refuse_collection
+        - road_work
+        - signage
 
   module_l2_plus_highway_urban_transition:
     INCLUDE_AND:
