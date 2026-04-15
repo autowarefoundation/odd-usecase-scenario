@@ -54,7 +54,7 @@ MODULES:
         - minor_or_local_roads # provide access to residential areas and other local developments
         - parking_space # physical space where one vehicle is parked
         - shared_space #  may be shared between subject vehicle and other actors (non-vehicle included)
-        - dockign_area
+        - docking_area
       drivable_area_type_classification:
         - with_active_traffic_management
         - without_active_traffic_management
@@ -88,6 +88,7 @@ MODULES:
         - street_furniture # e.g. bollards
         - vegetation
       special_structures_type:
+        - automatic_access_control_barrier
         - bridge
         - pedestrian_crossing
         - rail_crossing
@@ -101,6 +102,7 @@ MODULES:
       rainfall_rate: "> light_rain"
       snowfall: "> light_snow"
       illuminance: "< 0.1 lux" # Reference: ~ full moon at night
+      visibility: "< 100 meters" # due to fog, mist, smoke, etc.
 
   module_poor_vehicle_control:
     TITLE: Conditions that negatively affect the vehicle's control capabilities
