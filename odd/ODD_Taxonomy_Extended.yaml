@@ -23,6 +23,7 @@ TAXONOMY:
       drivable_area_lane_specification:
         lane_type:
           - pedestrian_lane 
+          - shoulder_lane
         lane_dimensions:
           narrow:   # <= 3 meters
             lane_width: "<= 3 m"
@@ -44,3 +45,6 @@ TAXONOMY:
         density_of_agents: float agent_density
         volume_of_traffic: float agent_flow_rate
         flow_rate: float agent_flow_rate
+    subject_vehicle:
+      max_load_on_driving_axles: float weight
+      number_of_axles: integer count
