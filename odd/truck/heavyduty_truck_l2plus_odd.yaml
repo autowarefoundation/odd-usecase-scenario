@@ -2,7 +2,7 @@ IMPORT:
   - ../ODD_Taxonomy_Extended.yaml
 
 ODD:
-  heavyduty_truck_odd:
+  heavy_duty_truck_odd:
     TITLE: ODD for L2+ Heavy-duty Truck
     DESCRIPTION: This module defines the ODD for the L2+ heavy-duty truck software developed by the AWF Truck Working Group.
     INCLUDE_AND:
