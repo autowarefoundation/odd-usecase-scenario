@@ -48,17 +48,17 @@
     </tbody>
 </table>
 
-<table>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; border: 1px solid #666; text-align: left;">
     <!-- OUT OF ODD Section -->
     <thead>
-        <tr style="background-color: #b4c6e7;">
+        <tr style="background-color: #b4c6e7;  color: #000000; text-align: center">
           <th colspan="7" style="text-align: center;">OUT OF ODD</th>
         </tr>
-        <tr style="background-color: #d9e1f2;">
+        <tr style="background-color: #d9e1f2; color: #000000; text-align: center">
           <th colspan="4" style="text-align: center;">CATEGORIES</th>
-          <th>ATTRIBUTE</th> 
-          <th>VALUE</th> 
-          <th>COMMENT</th>
+          <th style="text-align: center;">ATTRIBUTE</th> 
+          <th style="text-align: center;">VALUE</th> 
+          <th style="text-align: center;">COMMENT</th>
         </tr>
     </thead>
     <tr>
@@ -70,16 +70,14 @@
     </tr>
     <tr>
       <td><b>drivable_area</b></td>
-      <td><b>drivable_area_surface</b></td>
-      <td></td>
+      <td colspan="2"><b>drivable_area_surface</b></td>
       <td>drivable_area_included_surface_condition</td>
       <td>• icy<br>• flooded<br>• standing_water<br>• snow_on_surface<br>• wet<br>• surface_contamination</td>
       <td></td>
     </tr>
     <tr>
       <td><b>dynamic_elements</b></td>
-      <td><b>traffic_agents</b></td>
-      <td colspan="2"></td>
+      <td colspan="3"><b>traffic_agents</b></td>
       <td>presence_of_special_vehicles</td>
       <td>• ambulances<br>• police_vehicles<br>• work_vehicles</td>
       <td></td>
@@ -87,8 +85,7 @@
     <tr>
       <td rowspan="3"><b>environmental_conditions</b></td>
       <td rowspan="2"><b>weather</b></td>
-      <td>rain</td>
-      <td></td>
+      <td colspan="2">rain</td>
       <td>rainfall_rate</td>
       <td>&gt; light_rain</td>
       <td></td>
@@ -97,11 +94,9 @@
       <td colspan="2"></td>
       <td>snowfall_visibility</td>
       <td>&lt; light_snow</td>
-      <td></td>
     </tr>
     <tr>
-      <td><b>illumination</b></td>
-      <td colspan="2"></td>
+      <td colspan="3"><b>illumination</b></td>
       <td>illuminance</td>
       <td>&lt; 0.1 lux</td>
       <td>Reference: ~ full moon at night</td>
