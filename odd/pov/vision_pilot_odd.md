@@ -15,7 +15,7 @@
     <tr>
       <td rowspan="5"><b>scenery_elements</b></td>
       <td rowspan="5"><b>drivable_area</b></td>
-      <td colspan="2"></td>
+      <td colspan="2" style="border-left: hidden;"></td>
       <td>drivable_area_type</td>
       <td>• motorways_or_highways_or_interstates</td>
       <td></td>
@@ -63,7 +63,7 @@
     </thead>
     <tr>
       <td rowspan="2"><b>scenery_elements</b></td>
-      <td colspan="3"></td>
+      <td colspan="3" style="border-left: hidden;"></td>
       <td>temporary_drivable_area_structures</td>
       <td>• construction_site_detour<br>• road_work</td>
       <td></td>
@@ -91,7 +91,7 @@
       <td></td>
     </tr>
     <tr>
-      <td colspan="2"></td>
+      <td colspan="2" style="border-left: hidden;"></td>
       <td>snowfall_visibility</td>
       <td>&lt; light_snow</td>
     </tr>
